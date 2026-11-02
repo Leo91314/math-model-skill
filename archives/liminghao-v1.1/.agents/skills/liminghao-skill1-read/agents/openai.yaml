@@ -1,0 +1,4 @@
+interface:
+  display_name: "Liminghao 01 · 读题"
+  short_description: "完整理解题目、条件和交付要求，识别有来源且值得后续查证的结构线索。"
+  default_prompt: "使用 $liminghao-skill1-read，理解题目并列逐问任务，指出值得查证的结构线索，暂不求解。"

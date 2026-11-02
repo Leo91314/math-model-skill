@@ -1,0 +1,4 @@
+interface:
+  display_name: "Liminghao 15 · 终稿交付"
+  short_description: "核对当届要求与最终文件，处理内容一致性、匿名和真实使用披露"
+  default_prompt: "使用 $liminghao-skill15-submit，根据我已提供的材料完成终稿交付，交付实际成果与必要的核查依据。"

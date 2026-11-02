@@ -1,0 +1,4 @@
+interface:
+  display_name: "Liminghao 05 · 全题主线"
+  short_description: "从题意与已有观察寻找结构突破口，选择主线并安排最小辨别验证和首个可信解。"
+  default_prompt: "使用 $liminghao-skill5-plan，比较有依据的研究路线，确定结构突破口和下一项最小验证。"

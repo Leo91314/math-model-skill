@@ -1,0 +1,4 @@
+interface:
+  display_name: "Liminghao 12 · 结果解释"
+  short_description: "解释真实结果和作用机制，区分事实与推断并提炼论文中心发现"
+  default_prompt: "使用 $liminghao-skill12-interpret，根据我已提供的材料完成结果解释，交付实际成果与必要的核查依据。"

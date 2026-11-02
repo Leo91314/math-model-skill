@@ -1,0 +1,4 @@
+interface:
+  display_name: "math model skill 2 · 检索可行方案"
+  short_description: "检索原始文献与可行模型算法，核对适配条件，为共同讨论提供有依据的候选。"
+  default_prompt: "使用 $math-model-skill2-research，检索适合本题的模型与算法，说明原始来源、成立条件和推荐依据。"

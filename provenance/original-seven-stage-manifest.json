@@ -1,0 +1,110 @@
+{
+  "version": "2.0",
+  "created_at": "2026-09-10",
+  "updated_at": "2026-09-10",
+  "scope": "project",
+  "install_root": ".agents/skills",
+  "design": "Seven user-led research stages: read, research, debate, design, execute, refine, rebuttal",
+  "shared_references": [
+    ".agents/skills/liminghao-skill1-read/references/principles.md",
+    ".agents/skills/liminghao-skill1-read/references/rules-and-review.md"
+  ],
+  "third_party_skills": "preserved; see docs/skills-manifest.json",
+  "previous_version_backup": "docs/archives/liminghao-skills-v1.1.zip",
+  "migration": "Old 16-entry set retired; skill1-read retained and six new callable names installed; no legacy aliases",
+  "skills": [
+    {
+      "name": "liminghao-skill1-read",
+      "title": "读题与理解",
+      "description": "完整阅读数模原题、图表和附件说明，区分事实、假设、歧义与交付物，生成逐问任务清单并识别值得查证的结构线索。用于读题理解，尚不求解。",
+      "chars": 2307,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "8f5ba995158da6003185fa90d9f4d99360e3590690b1c8bb11a739d707669de9",
+        "references/rules-and-review.md": "4786dc91045286c661c31f6fa5041adcc4c0463456e9310daa06ce6aa99b4ae0",
+        "references/principles.md": "037f8c474432ba4a98f5e457de49b23b79e840975c0baca1fe4dcb570bd3af49",
+        "agents/openai.yaml": "d03bd0bc70db561175d4b404b086560965a77710f83a256f6fdbd03fe4491baf"
+      },
+      "step": 1,
+      "path": ".agents/skills/liminghao-skill1-read/SKILL.md"
+    },
+    {
+      "name": "liminghao-skill2-research",
+      "title": "检索可行方案",
+      "description": "围绕数学建模题目检索历史文献、机理、可行模型和算法，核对原始来源及适用条件，形成供人机讨论的候选方案。用于方案调研，不替用户定案或直接运行完整实验。",
+      "chars": 1585,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "4f38c86875f9dc1dce3dc4a240fd6ebfe44a0781fb0201d01141255bf73b7592",
+        "agents/openai.yaml": "51d52fd225c14d42cd68998ea1eeeea422d0ee8c8448d98cf24d62fd8e171260"
+      },
+      "step": 2,
+      "path": ".agents/skills/liminghao-skill2-research/SKILL.md"
+    },
+    {
+      "name": "liminghao-skill3-debate",
+      "title": "讨论模型与主张",
+      "description": "围绕用户对数学建模题目的理解开展有证据的人机讨论，修正假设和方案，明确模型、方法、论文主张与贡献所需证据。用于共同定方案，不虚构用户观点或把待讨论选择擅自定案。",
+      "chars": 1767,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "ad90f81a9cb7ccc0c0ffd42d74139ea25ab05f440b36426029616d12ed2269bd",
+        "agents/openai.yaml": "80a47214f4d67f1f5d0c34d294ad21007553c278c4aa7c2f374eb7df059042cb"
+      },
+      "step": 3,
+      "path": ".agents/skills/liminghao-skill3-debate/SKILL.md"
+    },
+    {
+      "name": "liminghao-skill4-design",
+      "title": "实验与算法设计",
+      "description": "为已商定的数模模型与论文主张设计实验、评价指标、数值算法和比较方式，明确证据能支持什么。用于执行前设计或补证规划；实际代码、实验和图表交由第5步。",
+      "chars": 2021,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "2535b4bd94007bf912cf8a625d062722fc3201409f77d505fac03e3400b6d69f",
+        "agents/openai.yaml": "d3b8fa27082b10b20e3264289dd7ac73229d1cd590e7a9cee69fb36768ed9c1c"
+      },
+      "step": 4,
+      "path": ".agents/skills/liminghao-skill4-design/SKILL.md"
+    },
+    {
+      "name": "liminghao-skill5-execute",
+      "title": "代码实验与图表",
+      "description": "按已定数模路线实际完成代码、求解、验证实验与图表，先跑通最小真实链路，再覆盖授权任务并保留复现入口。用于自主执行和补算；论文正文留到第6步。",
+      "chars": 2226,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "5c4dcf79e9a3573190b63272466a458ec2aa7bcd8028ee770bc8e0f641f85418",
+        "agents/openai.yaml": "8fc8f9cc1b6fa0f2d36543a6959736b684e9e16e0582394e78e05be55f5504cd"
+      },
+      "step": 5,
+      "path": ".agents/skills/liminghao-skill5-execute/SKILL.md"
+    },
+    {
+      "name": "liminghao-skill6-refine",
+      "title": "成稿与故事线打磨",
+      "description": "根据已验证的数学建模结果撰写和反复打磨论文，优化主线、摘要、图表与表达，并查找会改变结论的技术漏洞。用于成稿和修订，保持中心发现，不把正文写成逐项答辩。",
+      "chars": 1763,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "18af2a70eef290872fda3b211270fa23fa97b47d636a0fd5b8b50466148c2406",
+        "agents/openai.yaml": "f8175fb5e42b7faea9d2dc9b2ecdcce2018384e6dc52495b77edfa9742b25540"
+      },
+      "step": 6,
+      "path": ".agents/skills/liminghao-skill6-refine/SKILL.md"
+    },
+    {
+      "name": "liminghao-skill7-rebuttal",
+      "title": "模拟评阅与质询",
+      "description": "依据原题、论文和真实证据模拟数学建模评阅与答辩，提出关键质疑、试答和最小补证方案，并核查提交障碍。用于内部预审，不预测奖项或假定存在正式rebuttal环节。",
+      "chars": 1903,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "b8b5dd0767c05b52545d74a460c32d348c56edd3be3a0b0a4f689b832861f59a",
+        "agents/openai.yaml": "296207ab37eb60cc24b7911fee6f3a69ae7e2cc9bdbf7fbfec835b394c291f01"
+      },
+      "step": 7,
+      "path": ".agents/skills/liminghao-skill7-rebuttal/SKILL.md"
+    }
+  ]
+}

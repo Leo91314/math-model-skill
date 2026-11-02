@@ -1,0 +1,4 @@
+interface:
+  display_name: "math model skill 1 · 读题与理解"
+  short_description: "完整读题并核对任务、条件、附件交付与有依据的结构线索，保持只读范围。"
+  default_prompt: "使用 $math-model-skill1-read，完整阅读题目与附件说明，解释全题并列逐问任务，这次只读题。"

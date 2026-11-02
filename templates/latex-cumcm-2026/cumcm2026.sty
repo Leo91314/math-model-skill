@@ -1,0 +1,88 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{cumcm2026}[2026/09/10 CUMCM electronic paper layout]
+\RequirePackage{iftex}
+\ifXeTeX\else
+  \PackageError{cumcm2026}{Please select XeLaTeX}{Use XeLaTeX in Overleaf Settings.}
+\fi
+% 采用 2.8 cm，为中文悬挂标点与页脚字形预留余量，满足至少 2.5 cm。
+\RequirePackage[margin=2.8cm,includefoot,footskip=0.9cm]{geometry}
+\RequirePackage{amsmath,amssymb,bm}
+\RequirePackage{graphicx}
+\RequirePackage{booktabs,tabularx,longtable,array}
+\RequirePackage{caption}
+\RequirePackage{enumitem}
+\RequirePackage{fancyhdr}
+\RequirePackage{xcolor}
+\RequirePackage{listings}
+\RequirePackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\RequirePackage{etoolbox}
+\RequirePackage[hidelinks,unicode]{hyperref}
+\hypersetup{pdfauthor={},pdfsubject={},pdfkeywords={},pdfcreator={LaTeX}}
+\AtBeginDocument{\hypersetup{pdftitle={\PaperTitle}}}
+
+% 字体、字号、行距均为本模板的排版选择，并非全国统一硬性规定。
+% 英文与数学使用 LaTeX/fontspec 默认的 Latin Modern 字体，避免系统字体依赖。
+\linespread{1.22}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{2em}
+\raggedbottom
+\ctexset{
+  section={format=\Large\bfseries\heiti,number=\arabic{section},
+    beforeskip=1.2ex plus .4ex minus .2ex,afterskip=.8ex plus .2ex},
+  subsection={format=\normalsize\bfseries\heiti,
+    beforeskip=1ex plus .3ex,afterskip=.5ex plus .2ex},
+  subsubsection={format=\normalsize\bfseries,
+    beforeskip=.8ex,afterskip=.4ex}
+}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\small\thepage}
+  \renewcommand{\headrulewidth}{0pt}}
+\captionsetup{font=small,labelfont=bf,labelsep=quad,skip=6pt}
+\captionsetup[table]{position=top}
+\setlist{nosep,topsep=.4em,leftmargin=3em}
+\renewcommand{\arraystretch}{1.2}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\lstset{
+  basicstyle=\ttfamily\footnotesize,
+  numbers=left,numberstyle=\tiny\color{gray},numbersep=8pt,
+  breaklines=true,breakatwhitespace=false,columns=fullflexible,
+  keepspaces=true,showstringspaces=false,tabsize=4,
+  frame=single,rulecolor=\color{black!25},
+  xleftmargin=1.7em,xrightmargin=.6em,framexleftmargin=.4em,
+  aboveskip=1em,belowskip=1em,captionpos=b
+}
+\newcommand{\placeholder}[1]{\textbf{【#1】}}
+\newcommand{\MakeSummaryTitle}{%
+  \begin{center}
+    {\zihao{3}\heiti\bfseries\PaperTitle\par}
+    \vspace{.9em}
+    {\zihao{4}\heiti\bfseries 摘\quad 要\par}
+  \end{center}
+}
+\newcommand{\PrintKeywords}{\par\vspace{.8em}
+  \noindent\textbf{关键词：}\PaperKeywords\par}
+\newcounter{cumcmMainStart}
+\newcounter{cumcmMainPages}
+\newcommand{\StartMainText}{%
+  \clearpage
+  \ifnum\value{page}>2
+    \PackageWarningNoLine{cumcm2026}{Abstract exceeds one page. Shorten title, abstract and keywords}
+  \fi
+  \setcounter{cumcmMainStart}{\value{page}}
+}
+\newcommand{\StartAppendices}{%
+  \clearpage
+  \setcounter{cumcmMainPages}{\numexpr\value{page}-\value{cumcmMainStart}\relax}
+  \typeout{CUMCM BODY PAGES (including declaration and references): \arabic{cumcmMainPages}}
+  \ifnum\value{cumcmMainPages}>30
+    \PackageWarningNoLine{cumcm2026}{Body exceeds 30 pages. Reduce the main text}
+  \fi
+  \appendix
+  \ctexset{section={name={附录\space,},number=\Alph{section}}}
+}

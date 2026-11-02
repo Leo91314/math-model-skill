@@ -1,0 +1,4 @@
+interface:
+  display_name: "math model skill 5 · 代码实验与图表"
+  short_description: "按已定路线自主完成真实计算、验证和图表，保留复现入口，正文留到下一步。"
+  default_prompt: "使用 $math-model-skill5-execute，按我们已定方案完成代码、实际实验、验证和图表，本步不写论文正文。"

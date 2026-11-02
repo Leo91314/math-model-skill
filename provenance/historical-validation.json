@@ -1,0 +1,121 @@
+{
+  "version": "2.0",
+  "checked_at": "2026-09-10",
+  "structural": {
+    "official_quick_validate_passed": 7,
+    "ui_metadata_passed": 7,
+    "relative_references": "all resolved",
+    "installed_file_hashes": "all 16 files match the final validated staging version",
+    "callable_names": [
+      "liminghao-skill1-read",
+      "liminghao-skill2-research",
+      "liminghao-skill3-debate",
+      "liminghao-skill4-design",
+      "liminghao-skill5-execute",
+      "liminghao-skill6-refine",
+      "liminghao-skill7-rebuttal"
+    ]
+  },
+  "runtime": {
+    "method": "Codex app-server initialize + skills/list(forceReload=true); no model thread created",
+    "codex_version": "codex-cli 0.153.4",
+    "project_skill_count": 25,
+    "custom_skill_count": 7,
+    "errors": []
+  },
+  "runtime_report": "outputs/liminghao_skills_validation/v2.0/codex-loadcheck.json",
+  "rules_research": {
+    "current_official_documents": [
+      "2023 charter",
+      "2026 participation rules",
+      "2026 paper formatting",
+      "2026 AI usage rules, effective September 1",
+      "2026 first notice and March 25 participation instructions",
+      "2023 national reviewing procedure"
+    ],
+    "expert_materials_read": [
+      "2023 A Wu Mengda, pp35-44 with p42 focus",
+      "2026 Cai Zhijie synthesis, 2024 A p4 and 2022 A pp9-10",
+      "2025 A Cai Zhijie, pp9-11"
+    ],
+    "source_index": ".agents/skills/liminghao-skill1-read/references/rules-and-review.md",
+    "limits": "Public expert commentary and general reviewing principles are not complete internal annual scoring tables; 2021 A commentary body not obtained in this revision"
+  },
+  "behavioral_tests": [
+    {
+      "case": "Synthetic 24-month city water-demand forecast; literature search and discussion of an unsettled user proposal",
+      "skills": [
+        2,
+        3
+      ],
+      "status": "research delivered and a discussion round completed; model selection remains open as requested",
+      "report": "outputs/liminghao_skills_validation/v2.0/discuss/02-research.md",
+      "discussion": "outputs/liminghao_skills_validation/v2.0/discuss/03-debate.md",
+      "observed": "Consulted primary sources; conditioned CV exceptions, preprocessing and predictor availability; separated predictive attribution from causal claims; did not invent data, run models or decide on behalf of user"
+    },
+    {
+      "case": "Synthetic nominal cooling ODE; design then execute, CSV and plot, no perturbation or paper",
+      "skills": [
+        4,
+        5
+      ],
+      "status": "actual numerical execution, CSV export and PNG visual review completed",
+      "report": "outputs/liminghao_skills_validation/v2.0/execute/outputs/workflow/05-execute.md",
+      "metrics": {
+        "first_reach_numeric_min": 17.917594692323533,
+        "first_reach_exact_min": 17.91759469228055,
+        "first_reach_absolute_error_min": 4.298428279980726e-11,
+        "trajectory_max_sampled_error_c": 1.8533370393924997e-09,
+        "check_points": 669,
+        "csv_rows": 61,
+        "all_checks_passed": true
+      },
+      "observed": "Used analytic reference and RK45 event; no model reselection, extra permission, sensitivity expansion or paper draft; distinguished sampled numerical accuracy from empirical validation"
+    },
+    {
+      "case": "Synthetic quadratic-design short draft; refine and internally question without numerical experiments",
+      "skills": [
+        6,
+        7
+      ],
+      "status": "coherent revision and bounded internal Q&A completed",
+      "report": "outputs/liminghao_skills_validation/v2.0/refine/02-internal-questioning.md",
+      "rewrite": "outputs/liminghao_skills_validation/v2.0/refine/01-revised-method-results.md",
+      "observed": "Derived exact feasible optimum and corrected percentage; rejected unsupported robustness and complexity claims; did not require SHAP, missing full paper or a new experiment; kept Q&A separate from main prose"
+    }
+  ],
+  "methodology": "Three fresh independent agents received only the staged skills, referenced material and constructed benign raw requests, not project history, expected answers or suspected fixes. Root inspected actual reports, code, numerical JSON and the generated plot. Tests are synthetic preparation exercises, not current contest results.",
+  "behavioral_tested_steps_this_version": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "not_independently_behavior_tested_steps_this_version": [
+    1
+  ],
+  "limitations": [
+    "Single representative run per scenario; no statistical success rate, prize prediction or full contest solution",
+    "Step 1 retained the prior reading behavior with new shared links and stage handoffs; it received content/structure/load checks but no new separate read-through exercise",
+    "Step 3 tested one real discussion turn and preserved undecided status, not a multi-round agreement with the real user",
+    "No long-running failures, large-scale optimization, complete final manuscript or official submission tested",
+    "Historical v1.0/v1.1 tests were not rerun against v2.0",
+    "Desktop menu refresh timing not tested; app-server discovery, descriptions and enabled status verified"
+  ],
+  "migration": {
+    "backup": "docs/archives/liminghao-skills-v1.1.zip",
+    "old_active_entries": 16,
+    "new_active_entries": 7,
+    "third_party_files_preserved": 120,
+    "hooks": "unchanged",
+    "user_paper": "unchanged"
+  },
+  "historical_records": {
+    "v1.1_manifest": "outputs/liminghao_skills_validation/v2.0/previous-v1.1-manifest.json",
+    "v1.1_validation": "outputs/liminghao_skills_validation/v2.0/previous-v1.1-validation.json",
+    "v1.1_report": "outputs/liminghao_skills_validation/v2.0/previous-v1.1-report.md"
+  },
+  "archive_note": "Fourteen selected small test artifact files copied from isolated directories, excluding font cache. Original programs, numerical records and execution commands preserved; Markdown links point to retained artifacts. Test reports use user for their test requester; exercises were constructed by root."
+}

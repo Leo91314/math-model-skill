@@ -1,0 +1,4 @@
+interface:
+  display_name: "Liminghao 02 · 数学转化"
+  short_description: "把题目转成变量、指标与约束，明确数学任务和前后问题的关系"
+  default_prompt: "使用 $liminghao-skill2-analyze，根据我已提供的材料完成数学转化，交付实际成果与必要的核查依据。"

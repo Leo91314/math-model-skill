@@ -1,0 +1,102 @@
+{
+  "version": "1.1",
+  "checked_at": "2026-09-10",
+  "structural": {
+    "official_quick_validate_passed": 16,
+    "metadata_passed": 16,
+    "relative_references": "all resolved",
+    "installed_files": "all match validated staging SHA-256 values",
+    "updated_steps": [
+      0,
+      1,
+      5,
+      7,
+      9,
+      10,
+      13
+    ],
+    "changed_files": 14
+  },
+  "runtime": {
+    "method": "Codex app-server initialize + skills/list(forceReload=true); no model thread created",
+    "codex_version": "codex-cli 0.153.4",
+    "project_skill_count": 34,
+    "custom_skill_count": 16,
+    "errors": []
+  },
+  "runtime_report": "outputs/liminghao_skills_validation/v1.1/codex-loadcheck.json",
+  "behavioral_tests": [
+    {
+      "case": "Synthetic weighted squared-distance location exercise; solve Q1-Q2 and defer Q3",
+      "skills": [
+        0,
+        1,
+        5,
+        6,
+        7,
+        8
+      ],
+      "result": "completed with actual exact arithmetic execution",
+      "report": "outputs/liminghao_skills_validation/v1.1/structural_run/report.md",
+      "observed": "used completion of squares as first baseline, no enumeration prerequisite; checked original objective, feasibility and exact lower bound; did not solve deferred Q3",
+      "metrics": {
+        "q1_value": 284,
+        "q2_point_exact": [
+          "5/3",
+          "49/15"
+        ],
+        "q2_objective_exact": "3874/15",
+        "checks_passed": 7
+      }
+    },
+    {
+      "case": "Synthetic interval-union choice exercise with pairwise spacing and unsupported greedy guarantee; investigate and rewrite",
+      "skills": [
+        10,
+        13
+      ],
+      "result": "completed with actual small-instance enumeration and method rewrite",
+      "report": "outputs/liminghao_skills_validation/v1.1/claim_write/review.md",
+      "observed": "examined conjecture without existing baseline; refuted unsupported guarantee, preserved valid structural representation and bounded rewrite; no fabricated speed comparison",
+      "metrics": {
+        "greedy_value": 6,
+        "instance_optimum": 10,
+        "greedy_ratio": 0.6,
+        "claimed_lower_bound": 0.6321205588285577,
+        "claim_violated": true
+      }
+    }
+  ],
+  "methodology": "Two fresh independent agents received staged skills and constructed benign exercises only, with no project history, user paper, expected answers or suspected errors; root reviewed the actual reports, programs and machine-readable results. These exercises were authored for skill testing, not supplied contest data.",
+  "behavioral_tested_steps_this_version": [
+    0,
+    1,
+    5,
+    6,
+    7,
+    8,
+    10,
+    13
+  ],
+  "not_independently_behavior_tested_steps_this_version": [
+    2,
+    3,
+    4,
+    9,
+    11,
+    12,
+    14,
+    15
+  ],
+  "historical_v1.0_record": "outputs/liminghao_skills_validation/v1.1/previous-v1.0-validation.json",
+  "historical_v1.0_manifest": "outputs/liminghao_skills_validation/v1.1/previous-v1.0-manifest.json",
+  "limitations": [
+    "Two representative single runs; no statistical success-rate or prize inference",
+    "No full contest solution or complete paper produced; no test on an unreleased problem",
+    "Step 9 received targeted consistency review and structure/load checks, no separate new end-to-end behavioral test",
+    "Historical v1.0 behavioral tests were preserved and not rerun against v1.1",
+    "Desktop menu refresh timing not tested; runtime discovery and new descriptions verified"
+  ],
+  "archive_note": "Eight small artifact files copied from isolated temporary workspaces. Original commands and results preserved; any Markdown links may point to archive. Reports refer to the test requester as user; source exercises were constructed by the root agent for this test.",
+  "runtime_permissions": "Targeted authorization allowed existing SQLite runtime initialization and read-only skill listing; no configuration/trust changes or model thread created"
+}

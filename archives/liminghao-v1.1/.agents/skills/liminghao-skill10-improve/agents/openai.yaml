@@ -1,0 +1,4 @@
+interface:
+  display_name: "Liminghao 10 · 结构探索与改进"
+  short_description: "在任意研究阶段检验结构猜想或改进方法，用最小证据决定保留、收窄或转向。"
+  default_prompt: "使用 $liminghao-skill10-improve，检验当前结构猜想，依据小规模验证决定采用方式和结论范围。"

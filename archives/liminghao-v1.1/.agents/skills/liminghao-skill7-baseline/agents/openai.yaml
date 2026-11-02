@@ -1,0 +1,4 @@
+interface:
+  display_name: "Liminghao 07 · 最小求解"
+  short_description: "让真实输入通过最小模型得到可检查结果，允许解析或非常规表示直接作为基线。"
+  default_prompt: "使用 $liminghao-skill7-baseline，把当前最有依据的表示实现为首个真实可运行基线。"

@@ -1,0 +1,369 @@
+{
+  "name": "math model skill",
+  "export_date": "2026-11-02",
+  "private_archive": true,
+  "scope": "Reusable resources from the mathematical modeling project, not contest results",
+  "groups": {
+    "core": [
+      "math-model-skill1-read",
+      "math-model-skill2-research",
+      "math-model-skill3-debate",
+      "math-model-skill4-design",
+      "math-model-skill5-execute",
+      "math-model-skill6-refine",
+      "math-model-skill7-rebuttal"
+    ],
+    "bzd": [
+      "bzd-abstract-checker",
+      "bzd-ai-usage-disclosure",
+      "bzd-model-assumption-checker",
+      "bzd-model-dictionary",
+      "bzd-model-solution-checker",
+      "bzd-modeling-ideas",
+      "bzd-modeling-workflow",
+      "bzd-problem-analysis-checker",
+      "bzd-problem-restatement",
+      "bzd-problem-translator",
+      "bzd-reference-appendix-checker",
+      "bzd-symbol-notation-checker"
+    ],
+    "scientific": [
+      "networkx",
+      "pymoo",
+      "scikit-learn",
+      "simpy",
+      "statsmodels",
+      "sympy"
+    ],
+    "supporting": [
+      "planning-with-files",
+      "nature-figure",
+      "nature-polishing",
+      "latex-writing",
+      "karpathy-guidelines",
+      "pdf",
+      "jupyter-notebook",
+      "skill-creator",
+      "skill-installer",
+      "openai-docs"
+    ]
+  },
+  "skills": [
+    {
+      "name": "bzd-abstract-checker",
+      "group": "bzd",
+      "description": "Review a user-provided Chinese mathematical-modeling abstract without requiring the problem statement or full paper, identify concrete writing defects, and prioritize revisions. Use when the user asks to check, diagnose, or improve a modeling-paper abstract; do not claim coverage or factual consistency that cannot be verified without the problem or paper.",
+      "path": "skills/bzd-abstract-checker",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "license": "BZD attribution and non-commercial restrictions retained; no blanket MIT claim",
+      "file_count": 3
+    },
+    {
+      "name": "bzd-ai-usage-disclosure",
+      "group": "bzd",
+      "description": "Generate or review mathematical-modeling competition AI tool usage statements and the anonymous AI工具使用详情.pdf. Use when users provide real AI usage records, or when checking a paper, statement, details PDF, code, and AI records for completeness, anonymity, and consistency.",
+      "path": "skills/bzd-ai-usage-disclosure",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "license": "BZD attribution and non-commercial restrictions retained; no blanket MIT claim",
+      "file_count": 6
+    },
+    {
+      "name": "bzd-model-assumption-checker",
+      "group": "bzd",
+      "description": "Review a mathematical-modeling paper's model-assumption section against the complete problem statement. Diagnose whether each assumption is necessary, evidence-based, compatible with the task, appropriately simplified, and usable by the later model. Use for assumption review, not automatic full-paper review or unsupported assumption generation.",
+      "path": "skills/bzd-model-assumption-checker",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "license": "BZD attribution and non-commercial restrictions retained; no blanket MIT claim",
+      "file_count": 3
+    },
+    {
+      "name": "bzd-model-dictionary",
+      "group": "bzd",
+      "description": "Query the bundled BZD mathematical-modeling dictionary for a user-selected model, explain its assumptions, inputs, outputs, limitations and validation, then judge whether it fits the current competition problem and data. Use when a user asks whether a proposed model is appropriate, requests model feasibility review, or wants dictionary-based alternatives for a modeling task.",
+      "path": "skills/bzd-model-dictionary",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "license": "BZD attribution and non-commercial restrictions retained; no blanket MIT claim",
+      "file_count": 6
+    },
+    {
+      "name": "bzd-model-solution-checker",
+      "group": "bzd",
+      "description": "Review the model establishment, numerical solution, result analysis, model validation, and sensitivity or robustness sections of a mathematical-modeling paper against the complete problem. Use for core-model-section diagnosis, not automatic full-paper scoring or unsupported recomputation.",
+      "path": "skills/bzd-model-solution-checker",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "license": "BZD attribution and non-commercial restrictions retained; no blanket MIT claim",
+      "file_count": 5
+    },
+    {
+      "name": "bzd-modeling-ideas",
+      "group": "bzd",
+      "description": "Generate a coherent, whole-paper mathematical modeling solution framework from a complete contest problem. Use after the user supplies a CUMCM or other modeling problem and asks for modeling ideas, an overall solution plan, question-by-question analysis, candidate-model comparison, model-selection reasons, innovations, validation, or cross-question linkage. For every question, explain the task and mathematical essence, compare multiple feasible models in tables, recommend a route with explicit reasons, and keep all questions connected through shared data, variables, parameters, constraints, and validation.",
+      "path": "skills/bzd-modeling-ideas",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "license": "BZD attribution and non-commercial restrictions retained; no blanket MIT claim",
+      "file_count": 5
+    },
+    {
+      "name": "bzd-modeling-workflow",
+      "group": "bzd",
+      "description": "Orchestrate the BZD mathematical-modeling Skills across problem reading, idea generation, model selection, paper drafting, section checks, final format/AIGC audits and judge-style scoring. Use when a user wants one entry point, an end-to-end competition workflow, the next appropriate Skill, or coordinated processing of a problem and paper.",
+      "path": "skills/bzd-modeling-workflow",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "license": "BZD attribution and non-commercial restrictions retained; no blanket MIT claim",
+      "file_count": 2
+    },
+    {
+      "name": "bzd-problem-analysis-checker",
+      "group": "bzd",
+      "description": "Review a Chinese mathematical-modeling problem-analysis section against the original problem, checking task classification, data reasoning, cross-problem linkage, model-choice rationale, validation planning, chapter boundaries, and the overall solution framework. Use for diagnosis, not automatic full rewriting.",
+      "path": "skills/bzd-problem-analysis-checker",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "license": "BZD attribution and non-commercial restrictions retained; no blanket MIT claim",
+      "file_count": 4
+    },
+    {
+      "name": "bzd-problem-restatement",
+      "group": "bzd",
+      "description": "Generate a compliant Chinese mathematical-modeling problem-restatement chapter from a complete problem statement, or review a user's restatement against the original problem. Covers research background, problem review, and research overview; does not perform the separate problem-analysis chapter.",
+      "path": "skills/bzd-problem-restatement",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "license": "BZD attribution and non-commercial restrictions retained; no blanket MIT claim",
+      "file_count": 4
+    },
+    {
+      "name": "bzd-problem-translator",
+      "group": "bzd",
+      "description": "Translate a complete mathematical modeling contest problem sentence by sentence into precise modeling language, preserve every substantive condition and definition, expose hidden constraints, draw a mandatory Mermaid cross-question flowchart, audit omissions, and deliver one easy-to-open Markdown report. Use whenever a user supplies a CUMCM or other modeling problem and asks to interpret, translate, unpack, read closely, identify requirements, or avoid missing details before modeling.",
+      "path": "skills/bzd-problem-translator",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "license": "BZD attribution and non-commercial restrictions retained; no blanket MIT claim",
+      "file_count": 6
+    },
+    {
+      "name": "bzd-reference-appendix-checker",
+      "group": "bzd",
+      "description": "Check a mathematical-modeling paper's in-text citations, bibliography, appendix length and content, code, supporting files, reproducibility, consistency, and anonymity. Use when the user provides a paper or related materials and wants one consolidated P0-P3 audit; do not generate or invent missing sources or programs.",
+      "path": "skills/bzd-reference-appendix-checker",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "license": "BZD attribution and non-commercial restrictions retained; no blanket MIT claim",
+      "file_count": 5
+    },
+    {
+      "name": "bzd-symbol-notation-checker",
+      "group": "bzd",
+      "description": "Review the symbol-notation section of a mathematical-modeling paper against the full paper. Check table coverage, symbol meanings, units, overloading, case and subscript consistency, first-use definitions, formula usage, and visible table formatting. Use for symbol-table diagnosis, not general paper review.",
+      "path": "skills/bzd-symbol-notation-checker",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "license": "BZD attribution and non-commercial restrictions retained; no blanket MIT claim",
+      "file_count": 3
+    },
+    {
+      "name": "math-model-skill1-read",
+      "group": "core",
+      "description": "完整阅读数模原题、图表和附件说明，区分事实、假设、歧义与交付物，生成逐问任务清单并识别值得查证的结构线索。用于读题理解，尚不求解。",
+      "path": "skills/math-model-skill1-read",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "license": "Owner-created; no public redistribution license assigned",
+      "file_count": 4
+    },
+    {
+      "name": "math-model-skill2-research",
+      "group": "core",
+      "description": "围绕数学建模题目检索历史文献、机理、可行模型和算法，核对原始来源及适用条件，形成供人机讨论的候选方案。用于方案调研，不替用户定案或直接运行完整实验。",
+      "path": "skills/math-model-skill2-research",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "license": "Owner-created; no public redistribution license assigned",
+      "file_count": 2
+    },
+    {
+      "name": "math-model-skill3-debate",
+      "group": "core",
+      "description": "围绕用户对数学建模题目的理解开展有证据的人机讨论，修正假设和方案，明确模型、方法、论文主张与贡献所需证据。用于共同定方案，不虚构用户观点或把待讨论选择擅自定案。",
+      "path": "skills/math-model-skill3-debate",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "license": "Owner-created; no public redistribution license assigned",
+      "file_count": 2
+    },
+    {
+      "name": "math-model-skill4-design",
+      "group": "core",
+      "description": "为已商定的数模模型与论文主张设计实验、评价指标、数值算法和比较方式，明确证据能支持什么。用于执行前设计或补证规划；实际代码、实验和图表交由第5步。",
+      "path": "skills/math-model-skill4-design",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "license": "Owner-created; no public redistribution license assigned",
+      "file_count": 2
+    },
+    {
+      "name": "math-model-skill5-execute",
+      "group": "core",
+      "description": "按已定数模路线实际完成代码、求解、验证实验与图表，先跑通最小真实链路，再覆盖授权任务并保留复现入口。用于自主执行和补算；论文正文留到第6步。",
+      "path": "skills/math-model-skill5-execute",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "license": "Owner-created; no public redistribution license assigned",
+      "file_count": 2
+    },
+    {
+      "name": "math-model-skill6-refine",
+      "group": "core",
+      "description": "根据已验证的数学建模结果撰写和反复打磨论文，优化主线、摘要、图表与表达，并查找会改变结论的技术漏洞。用于成稿和修订，保持中心发现，不把正文写成逐项答辩。",
+      "path": "skills/math-model-skill6-refine",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "license": "Owner-created; no public redistribution license assigned",
+      "file_count": 2
+    },
+    {
+      "name": "math-model-skill7-rebuttal",
+      "group": "core",
+      "description": "依据原题、论文和真实证据模拟数学建模评阅与答辩，提出关键质疑、试答和最小补证方案，并核查提交障碍。用于内部预审，不预测奖项或假定存在正式rebuttal环节。",
+      "path": "skills/math-model-skill7-rebuttal",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "license": "Owner-created; no public redistribution license assigned",
+      "file_count": 2
+    },
+    {
+      "name": "networkx",
+      "group": "scientific",
+      "description": "Create, analyze, and visualize complex networks and graphs in Python with NetworkX. Use when working with network/graph data structures, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks (random, scale-free, small-world), reading/writing graph file formats, or drawing network topologies. Common applications include social, biological, transportation, and citation networks.",
+      "path": "skills/networkx",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "license": "MIT for skill collection; see UPSTREAM-LICENSE.md and individual library metadata",
+      "file_count": 7
+    },
+    {
+      "name": "pymoo",
+      "group": "scientific",
+      "description": "Multi-objective optimization framework. NSGA-II, NSGA-III, MOEA/D, Pareto fronts, constraint handling, benchmarks (ZDT, DTLZ), for engineering design and optimization problems.",
+      "path": "skills/pymoo",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "license": "MIT for skill collection; see UPSTREAM-LICENSE.md and individual library metadata",
+      "file_count": 14
+    },
+    {
+      "name": "scikit-learn",
+      "group": "scientific",
+      "description": "Machine learning in Python with scikit-learn. Use when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing, or building ML pipelines. Provides comprehensive reference documentation for algorithms, preprocessing techniques, pipelines, and best practices.",
+      "path": "skills/scikit-learn",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "license": "MIT for skill collection; see UPSTREAM-LICENSE.md and individual library metadata",
+      "file_count": 12
+    },
+    {
+      "name": "simpy",
+      "group": "scientific",
+      "description": "Build, inspect, test, and analyze bounded process-based discrete-event simulations with SimPy, including events, resources, interrupts, monitoring, replications, warm-up, and reproducible output analysis.",
+      "path": "skills/simpy",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "license": "MIT for skill collection; see UPSTREAM-LICENSE.md and individual library metadata",
+      "file_count": 17
+    },
+    {
+      "name": "statsmodels",
+      "group": "scientific",
+      "description": "Statistical models library for Python. Use when you need specific model classes (OLS, GLM, mixed models, ARIMA) with detailed diagnostics, residuals, and inference. Best for econometrics, time series, rigorous inference with coefficient tables. For guided statistical test selection with APA reporting use statistical-analysis.",
+      "path": "skills/statsmodels",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "license": "MIT for skill collection; see UPSTREAM-LICENSE.md and individual library metadata",
+      "file_count": 10
+    },
+    {
+      "name": "sympy",
+      "group": "scientific",
+      "description": "Use when you need exact symbolic math in Python — algebra, calculus, equation solving, symbolic linear algebra, or code generation via lambdify/LaTeX. Prefer NumPy or SciPy when floating-point approximations are sufficient.",
+      "path": "skills/sympy",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "license": "MIT for skill collection; see UPSTREAM-LICENSE.md and individual library metadata",
+      "file_count": 8
+    },
+    {
+      "name": "planning-with-files",
+      "group": "supporting",
+      "description": "Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring >5 tool calls. Supports automatic session recovery after /clear.",
+      "path": "skills/planning-with-files",
+      "origin": "Local supporting skill; upstream identity/version not established by this export",
+      "license": "No standalone license found; retained as a private local snapshot",
+      "file_count": 11
+    },
+    {
+      "name": "nature-figure",
+      "group": "supporting",
+      "description": ">-",
+      "path": "skills/nature-figure",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "license": "No standalone license found; private local snapshot, private external R collection not copied",
+      "file_count": 30
+    },
+    {
+      "name": "nature-polishing",
+      "group": "supporting",
+      "description": "Polish, restructure, or translate academic prose into Nature-leaning English using the paper-architecture and writing-strategy principles from Scientific English Writing & Communication, with phrase-level support from Academic Phrasebank. Use whenever the user asks to polish a manuscript paragraph, abstract, introduction, results, discussion, conclusion, title, methods section, or Chinese academic draft for publication-quality English.",
+      "path": "skills/nature-polishing",
+      "origin": "Local customized academic writing skill",
+      "license": "No standalone license found; no external books or papers copied",
+      "file_count": 6
+    },
+    {
+      "name": "latex-writing",
+      "group": "supporting",
+      "description": "Write and format LaTeX documents for academic journals. Use when: user asks to write LaTeX code, format papers for specific journals (Nature/Science/IEEE/ACM), create equations, tables, or BibTeX entries. NOT for: non-LaTeX writing (use paper-writing), data analysis, or literature search.",
+      "path": "skills/latex-writing",
+      "origin": "Local LaTeX writing skill",
+      "license": "No standalone license found; retained as a private local snapshot",
+      "file_count": 1
+    },
+    {
+      "name": "karpathy-guidelines",
+      "group": "supporting",
+      "description": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.",
+      "path": "skills/karpathy-guidelines",
+      "origin": "Local Karpathy Guidelines skill",
+      "license": "MIT frontmatter; upstream notice preserved",
+      "file_count": 1
+    },
+    {
+      "name": "pdf",
+      "group": "supporting",
+      "description": "Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and extraction.",
+      "path": "skills/pdf",
+      "origin": "OpenAI local PDF skill",
+      "license": "Apache-2.0; LICENSE.txt retained",
+      "file_count": 4
+    },
+    {
+      "name": "jupyter-notebook",
+      "group": "supporting",
+      "description": "Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook.",
+      "path": "skills/jupyter-notebook",
+      "origin": "OpenAI local notebook skill",
+      "license": "Apache-2.0; LICENSE.txt retained",
+      "file_count": 12
+    },
+    {
+      "name": "skill-creator",
+      "group": "supporting",
+      "description": "Create or update a Codex skill with appropriately scoped instructions and any needed supporting resources.",
+      "path": "skills/skill-creator",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "license": "Apache-2.0; license.txt retained",
+      "file_count": 9
+    },
+    {
+      "name": "skill-installer",
+      "group": "supporting",
+      "description": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
+      "path": "skills/skill-installer",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "license": "Apache-2.0; LICENSE.txt retained",
+      "file_count": 8
+    },
+    {
+      "name": "openai-docs",
+      "group": "supporting",
+      "description": "Use for Codex models/pricing, scheduled tasks, skills, settings, setup, troubleshooting, customization, automations, and self-knowledge—including 'you,' 'your,' 'this app,' or 'this coding agent' when they refer to Codex—and for OpenAI APIs/products and ChatGPT Work. Also use for model choice/migration, prompting, SDKs, Responses, Realtime, agents, evals, and Chat/Work/Codex comparisons. Do not use for generic app/software tasks that merely mention Codex.",
+      "path": "skills/openai-docs",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "license": "Apache-2.0; LICENSE.txt retained",
+      "file_count": 17
+    }
+  ],
+  "snapshot_note": "Project skills preserve the local project snapshot. Supporting global skills are the versions present on the export date, not guaranteed byte-identical to September usage."
+}

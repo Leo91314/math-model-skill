@@ -1,0 +1,4 @@
+interface:
+  display_name: "Liminghao 06 · 基础建模"
+  short_description: "推导可实现的方程、假设与约束，明确输入条件和最小求解路线"
+  default_prompt: "使用 $liminghao-skill6-model，根据我已提供的材料完成基础建模，交付实际成果与必要的核查依据。"

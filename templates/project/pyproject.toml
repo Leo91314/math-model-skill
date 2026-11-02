@@ -1,0 +1,39 @@
+[project]
+name = "math-modeling-a-workspace"
+version = "0.1.0"
+description = "Local mathematical modeling workspace; no contest data included."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "numpy>=2.2,<3",
+  "scipy>=1.14,<2",
+  "pandas>=2.2,<3",
+  "sympy>=1.13,<2",
+  "matplotlib>=3.9,<4",
+  "seaborn>=0.13,<1",
+  "scikit-learn>=1.6,<2",
+  "statsmodels>=0.14,<1",
+  "cvxpy>=1.6,<2",
+  "highspy>=1.9,<2",
+  "pymoo>=0.6,<1",
+  "SALib>=1.5,<2",
+  "networkx>=3.4,<4",
+  "simpy>=4.1,<5",
+  "openpyxl>=3.1,<4",
+  "python-docx>=1.1,<2",
+  "pypdf>=5,<7",
+  "pymupdf>=1.25,<2",
+  "jupyterlab>=4,<5",
+  "ipykernel>=6,<8",
+  "nbformat>=5,<6",
+  "ruff>=0.11,<1",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

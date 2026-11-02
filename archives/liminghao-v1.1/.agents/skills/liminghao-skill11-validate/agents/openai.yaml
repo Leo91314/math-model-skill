@@ -1,0 +1,4 @@
+interface:
+  display_name: "Liminghao 11 · 结论验证"
+  short_description: "围绕核心结论检验精度、完整可行性、敏感性与方案的可信边界"
+  default_prompt: "使用 $liminghao-skill11-validate，根据我已提供的材料完成结论验证，交付实际成果与必要的核查依据。"

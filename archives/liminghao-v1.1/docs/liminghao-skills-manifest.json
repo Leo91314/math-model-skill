@@ -1,0 +1,236 @@
+{
+  "version": "1.1",
+  "created_at": "2026-09-10",
+  "scope": "project",
+  "install_root": ".agents/skills",
+  "design": "15 independently callable stages plus one router; original authoring for this user",
+  "shared_reference": ".agents/skills/liminghao-skill0-workflow/references/principles.md",
+  "third_party_skills": "preserved; see docs/skills-manifest.json",
+  "skills": [
+    {
+      "step": 0,
+      "name": "liminghao-skill0-workflow",
+      "title": "总控",
+      "description": "按现有成果和结构线索调度 Liminghao 数模流程，支持探索、计算与写作往返。用于全题推进、续接或判断下一步；单项任务调用相应分步技能。",
+      "path": ".agents/skills/liminghao-skill0-workflow/SKILL.md",
+      "chars": 2809,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "1c4c57c98489228d6b12f53687e8e63987307c54581c3ae078926eb85233555d",
+        "agents/openai.yaml": "793353c6d89c7a51005b41eddb2c92c2270ad3339bddf7e78331cef0efc997aa",
+        "references/principles.md": "d82b11bfc1c9656364f89083a5221cc8690346bf99392afc3f85777c10023335"
+      }
+    },
+    {
+      "step": 1,
+      "name": "liminghao-skill1-read",
+      "title": "读题",
+      "description": "完整阅读数模原题、图表和附件说明，区分事实、假设、歧义与交付物，生成逐问任务清单并识别值得查证的结构线索。用于读题理解，尚不求解。",
+      "path": ".agents/skills/liminghao-skill1-read/SKILL.md",
+      "chars": 2327,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "01acf6469960b49ee8410561a52a40868a14abc79a353d564e66ad967c4fbc92",
+        "agents/openai.yaml": "96967f828eacd2653e48510ad5402abfb63268f692b217f60b92b7900df5f94a"
+      }
+    },
+    {
+      "step": 2,
+      "name": "liminghao-skill2-analyze",
+      "title": "数学转化",
+      "description": "将数模题意转成变量、状态、目标、约束和问题间接口。用于数学抽象与任务分解，不代替详细公式建模或数值求解。",
+      "path": ".agents/skills/liminghao-skill2-analyze/SKILL.md",
+      "chars": 1427,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "ad13baceb8958b91d8effe290aa3c12ae5dca5f21e93bc80a4cde34252fc2d20",
+        "agents/openai.yaml": "8fc50c2f6e149df05af7aa4e7776f0c39907c4cd28dc7c3515cb120b00940776"
+      }
+    },
+    {
+      "step": 3,
+      "name": "liminghao-skill3-data",
+      "title": "数据核查",
+      "description": "核查数学建模题目附件、字段、单位及关联关系，生成最小求解可用的数据与处理依据；用于数据检查和预处理，不代替读题或建模求解。",
+      "path": ".agents/skills/liminghao-skill3-data/SKILL.md",
+      "chars": 1712,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "61379d6486b8e9fe6858c4782726cbfc98cdeda7f70bf674fc34e2302532a309",
+        "agents/openai.yaml": "e55d4eb25a60d4489e6f0511ca61fef87ac8c44f0e5a4c59536a3c1ed2efcb52"
+      }
+    },
+    {
+      "step": 4,
+      "name": "liminghao-skill4-research",
+      "title": "定向调研",
+      "description": "针对数学建模中的明确机理、参数或算法缺口查阅原始来源，判断方法适配并提供可核查引用；用于定向调研，不默认开展全面综述。",
+      "path": ".agents/skills/liminghao-skill4-research/SKILL.md",
+      "chars": 1692,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "cfbfaea8210f6c1c880c4702da9b6726a31a15093ee8e40fc7c82230dfafa50a",
+        "agents/openai.yaml": "b6cc6253bc8f0d145534fe995afa316ce5e2f0be91d1bb2a3e31ee0f4b9fa77d"
+      }
+    },
+    {
+      "step": 5,
+      "name": "liminghao-skill5-plan",
+      "title": "全题主线",
+      "description": "为数模全题识别结构突破口、选择研究主线与首个可信解，安排能辨别路线的最小验证。用于整体解题思路和路线取舍，不代替实际求解或日常进度调度。",
+      "path": ".agents/skills/liminghao-skill5-plan/SKILL.md",
+      "chars": 1734,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "b90ea24495e3411cdd8993e541e3ce8e264745118abaecfbdcd7b50a5bfba32e",
+        "agents/openai.yaml": "35fa28a06a8cb409c1321cea547113f35812aa582ce4128e41171594cdfaf390"
+      }
+    },
+    {
+      "step": 6,
+      "name": "liminghao-skill6-model",
+      "title": "基础建模",
+      "description": "将数学建模任务建立为可求解的基础方程、目标和约束，说明必要假设、输入与识别条件；用于模型构造和推导，不把公式完成当作已运行验证。",
+      "path": ".agents/skills/liminghao-skill6-model/SKILL.md",
+      "chars": 1692,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "504ea7a198e579e5b642eeb657421f69099e30bcd55d989b3ac2a5a81e6e3455",
+        "agents/openai.yaml": "d74bdfcead4f512c58fb7d4247236e5a5b8422e75412eda07a5716ceac920550"
+      }
+    },
+    {
+      "step": 7,
+      "name": "liminghao-skill7-baseline",
+      "title": "最小求解",
+      "description": "将已有数学模型和真实赛题输入实际运行成最小端到端基线，保留结果与运行依据；用于首次求解或恢复失效链路，不以伪代码或合成演示冒充赛题结果。",
+      "path": ".agents/skills/liminghao-skill7-baseline/SKILL.md",
+      "chars": 1994,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "11b818cfe643656afeb8d0bc8efdee5d22891898dab002c93855e51f934903a5",
+        "agents/openai.yaml": "af9a7f73b841023434f90a49227a68be9137e8a837f28be195751d112add578d"
+      }
+    },
+    {
+      "step": 8,
+      "name": "liminghao-skill8-check",
+      "title": "基础验证",
+      "description": "对已运行的数学建模基线做单位、量级、边界、关键约束和简单特例快速核对，定位应修复的根因；不替代全面收敛、敏感性或稳健性验证。",
+      "path": ".agents/skills/liminghao-skill8-check/SKILL.md",
+      "chars": 1781,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "4cd24d45c6d75034d2c9c9cf44b5994efab825b95c55c407f169e22524500233",
+        "agents/openai.yaml": "ba60f6c0e069e7b159a6de976d5c8ce789dff9b00a5618e81b91e6c0987e1a25"
+      }
+    },
+    {
+      "step": 9,
+      "name": "liminghao-skill9-solve",
+      "title": "递进求解",
+      "description": "基于数学建模题目和已有基础模型，递进求解各问并形成全题最低完整结果；适用于基线已可运行后的续解、跨问扩展与结果交付，不用于单纯润色或以算法升级代替全题覆盖。",
+      "path": ".agents/skills/liminghao-skill9-solve/SKILL.md",
+      "chars": 1731,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "2927cd40d9f66f63997c671928b0b633612424526fd35c5a24cc2f37a8324103",
+        "agents/openai.yaml": "db1232e8954bd3606ceb61023eb2721b11193bfa7c8d4056909337bed0275476"
+      }
+    },
+    {
+      "step": 10,
+      "name": "liminghao-skill10-improve",
+      "title": "结构探索与改进",
+      "description": "在数模研究任一阶段探索结构假说、改写问题表示或改进已有方法，以最小验证决定路线并核查收益。适用于早期突破口检验和后续优化，不要求先有传统基线或完成全题。",
+      "path": ".agents/skills/liminghao-skill10-improve/SKILL.md",
+      "chars": 1932,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "970c45b46fb6fab075217d0f8b06379dcbbc35acd21497e0bdf0999338da38a7",
+        "agents/openai.yaml": "cfdb38a032857abc3e4a0f1d6e481678c30f6ea525bff109b6ef7c2c4c1f9ca5"
+      }
+    },
+    {
+      "step": 11,
+      "name": "liminghao-skill11-validate",
+      "title": "结论验证",
+      "description": "围绕数学建模论文的最终结论开展针对性验证，区分模型有效性、数值精度、完整可行性、敏感性、稳健性与最优性证据；适用于结果形成后的可信度审查和补证，不替代首次基线快速检查。",
+      "path": ".agents/skills/liminghao-skill11-validate/SKILL.md",
+      "chars": 1643,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "a6a98565c5d16b7e6e680051daf35e65f8cd650ede8374b96611e4c659807cc9",
+        "agents/openai.yaml": "67908dbddcd0eb2e1be3972fbc71e2354d616c5c2cca20cc8c0bcd1a0aab84fc"
+      }
+    },
+    {
+      "step": 12,
+      "name": "liminghao-skill12-interpret",
+      "title": "结果解释",
+      "description": "将数学建模的已计算结果转化为逐问回答、机制解释和论文中心发现，区分事实、推断与适用边界并设计支撑图表；适用于结果分析和研究主线提炼，不编造结果或把未验证解释写成结论。",
+      "path": ".agents/skills/liminghao-skill12-interpret/SKILL.md",
+      "chars": 1690,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "98c535e5e89af63d2ed5ec5058e59ef3e9ac43e3fe139f8f0e97c547cf003a65",
+        "agents/openai.yaml": "d13acfd7c046ab1580edc38015a3cf199cd8e1d33b4975c953483430e81d327d"
+      }
+    },
+    {
+      "step": 13,
+      "name": "liminghao-skill13-write",
+      "title": "正文写作",
+      "description": "撰写或修改数学建模参赛论文正文，提炼结构洞察与主要贡献，将模型、结果和证据组织成清楚的论证。适用于搭框架、成稿与按评价修订；仅摘要或提交检查分别使用对应技能。",
+      "path": ".agents/skills/liminghao-skill13-write/SKILL.md",
+      "chars": 2595,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "c01bb23b7a9dfd1b79872e478d1f1be75ffcc9900a7b22f0226a7bd3c769637b",
+        "agents/openai.yaml": "002b811c711b52fcb5e955c1b5ee22712f6551e38df53198b901108848ae479f"
+      }
+    },
+    {
+      "step": 14,
+      "name": "liminghao-skill14-abstract",
+      "title": "标题摘要",
+      "description": "生成或审读数学建模参赛论文的标题、摘要和关键词，压缩主要机制、各问定量结果与最有力的验证证据。适用于正文或结果已具备时定稿，也可仅审读用户给出的摘要；不虚构缺失数字或验证结论。",
+      "path": ".agents/skills/liminghao-skill14-abstract/SKILL.md",
+      "chars": 2182,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "5277295d1c2af78805ac6b2bae92e824b013b5616c336ef78593fd1eb7892141",
+        "agents/openai.yaml": "350120080b90c92c376ac7b59ca35f794863fb56f8db88bda63b01dbb8d5dfc7"
+      }
+    },
+    {
+      "step": 15,
+      "name": "liminghao-skill15-submit",
+      "title": "终稿交付",
+      "description": "审查数学建模参赛论文与提交包，核对当届规则、题目覆盖、数字与代码一致性、引用匿名、真实AI使用记录及最终文件渲染。适用于终稿检查、支撑材料整理和提交前修复；默认在本地完成，不自行对外上传或提交。",
+      "path": ".agents/skills/liminghao-skill15-submit/SKILL.md",
+      "chars": 2256,
+      "validation": "Skill is valid!",
+      "files": {
+        "SKILL.md": "5e21c27014d11adb502cac835e47c0c8598fa2dc7a9447e5139245bab1f88a1b",
+        "agents/openai.yaml": "d00861e97bfe9a6d0fdcc5d958c1ed6357002e41104219f4e2ee43aecd72a74b"
+      }
+    }
+  ],
+  "updated_at": "2026-09-10",
+  "revision": {
+    "updated_steps": [
+      0,
+      1,
+      5,
+      7,
+      9,
+      10,
+      13
+    ],
+    "changed_files": 14,
+    "shared_principles_updated": true,
+    "callable_names": "unchanged",
+    "purpose": "Enable early structural exploration and unconventional first baselines; preserve evidence boundaries and foreground the paper contribution"
+  }
+}

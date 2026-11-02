@@ -1,0 +1,4 @@
+interface:
+  display_name: "math model skill 3 · 讨论模型与主张"
+  short_description: "围绕我的理解进行有证据的讨论，修正模型并明确与题目绑定的主张、贡献和证据。"
+  default_prompt: "使用 $math-model-skill3-debate，基于我的理解讨论并修正方案，明确模型、论文主张、贡献及所需证据。"

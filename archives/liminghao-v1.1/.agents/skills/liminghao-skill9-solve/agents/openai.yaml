@@ -1,0 +1,4 @@
+interface:
+  display_name: "Liminghao 09 · 递进求解"
+  short_description: "复用可靠基线逐问求解，绑定正确工况并形成全题完整一致的结果"
+  default_prompt: "使用 $liminghao-skill9-solve，根据我已提供的材料完成递进求解，交付实际成果与必要的核查依据。"

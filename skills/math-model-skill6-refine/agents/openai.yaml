@@ -1,0 +1,4 @@
+interface:
+  display_name: "math model skill 6 · 成稿与故事线打磨"
+  short_description: "利用真实结果写作并打磨中心发现、技术论证和表达，把有效修改融入论文主线。"
+  default_prompt: "使用 $math-model-skill6-refine，依据真实结果撰写并打磨论文，突出中心贡献，检查技术漏洞并修正表达。"

@@ -1,0 +1,157 @@
+{
+  "installed_on": "2026-09-10",
+  "scope": "project-local .agents/skills",
+  "sources": [
+    {
+      "repository": "https://github.com/BZDmathclub/bzd-math-modeling-skills",
+      "commit": "332d55c2f3244c9e193e90749f42bcc0d534ce53",
+      "stars_snapshot": 238,
+      "license_note": "BZD dictionary permits personal learning and non-commercial modeling competition research; attribution and all embedded declarations preserved."
+    },
+    {
+      "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "commit": "9cf7d9aea7d84754db4c167ab04b299d33c444bc",
+      "stars_snapshot": 44174,
+      "license_note": "MIT for upstream skill collection; UPSTREAM-LICENSE.md included in each selected skill. Original library license metadata retained."
+    }
+  ],
+  "adaptations": [
+    "Removed six automatic Scientific Agent Skills paper-citation instructions; source attribution and MIT license retained. Bibliography must reflect actual use and contest rules.",
+    "Replaced SimPy repository-relative script commands with this project interpreter and installed skill paths; removed requirement to run an unavailable upstream maintenance suite.",
+    "Removed byte-identical nested bzd-reference-appendix-checker duplicate."
+  ],
+  "excluded_bzd_skills": [
+    "bzd-paper-aigc-auditor",
+    "bzd-paper-format-checker",
+    "bzd-review-paper",
+    "bzd-cumcm-school-awards"
+  ],
+  "skills": [
+    {
+      "name": "bzd-abstract-checker",
+      "path": ".agents/skills/bzd-abstract-checker/SKILL.md",
+      "upstream_path": "skills/论文自查类/bzd-abstract-checker",
+      "source_index": 0,
+      "skill_sha256": "47bc8430ae54297fab3b1f78025ee8c0b702c0ae3c4365682235ea065aef9abe"
+    },
+    {
+      "name": "bzd-ai-usage-disclosure",
+      "path": ".agents/skills/bzd-ai-usage-disclosure/SKILL.md",
+      "upstream_path": "skills/生成类/bzd-ai-usage-disclosure",
+      "source_index": 0,
+      "skill_sha256": "6287b3186bc06baca4e046eb5ea247937e2706c225f3ce29706ec21185833765"
+    },
+    {
+      "name": "bzd-model-assumption-checker",
+      "path": ".agents/skills/bzd-model-assumption-checker/SKILL.md",
+      "upstream_path": "skills/论文自查类/bzd-model-assumption-checker",
+      "source_index": 0,
+      "skill_sha256": "73151e927a4fc497445e6970925f06f4a7a71e62cdb4d2bcd1bc10b2c530c92a"
+    },
+    {
+      "name": "bzd-model-dictionary",
+      "path": ".agents/skills/bzd-model-dictionary/SKILL.md",
+      "upstream_path": "skills/论文自查类/bzd-model-dictionary",
+      "source_index": 0,
+      "skill_sha256": "30d1f348ceccaaa61603ee0747ac0d038a6fa7e2a28215150c35dbb6ee4f4d17"
+    },
+    {
+      "name": "bzd-model-solution-checker",
+      "path": ".agents/skills/bzd-model-solution-checker/SKILL.md",
+      "upstream_path": "skills/论文自查类/bzd-model-solution-checker",
+      "source_index": 0,
+      "skill_sha256": "87edafb91dca423c5d638e25b432629547be98c73d8cb4175be7d9a1706d6342"
+    },
+    {
+      "name": "bzd-modeling-ideas",
+      "path": ".agents/skills/bzd-modeling-ideas/SKILL.md",
+      "upstream_path": "skills/生成类/bzd-modeling-ideas",
+      "source_index": 0,
+      "skill_sha256": "fb09ff604a1cd71bde7b100c8d8013858a997a898678fd6b374df6ebc4082d21"
+    },
+    {
+      "name": "bzd-modeling-workflow",
+      "path": ".agents/skills/bzd-modeling-workflow/SKILL.md",
+      "upstream_path": "skills/总控类/bzd-modeling-workflow",
+      "source_index": 0,
+      "skill_sha256": "e77809f7534590240656f6c9077f56c2b1d237eea7bb9da2c238d4eb7aa9cf9c"
+    },
+    {
+      "name": "bzd-problem-analysis-checker",
+      "path": ".agents/skills/bzd-problem-analysis-checker/SKILL.md",
+      "upstream_path": "skills/论文自查类/bzd-problem-analysis-checker",
+      "source_index": 0,
+      "skill_sha256": "5643f148ae24c221cbe107aeecef3768d278317a22c6d1b6ab2486316da963f8"
+    },
+    {
+      "name": "bzd-problem-restatement",
+      "path": ".agents/skills/bzd-problem-restatement/SKILL.md",
+      "upstream_path": "skills/生成类/bzd-problem-restatement",
+      "source_index": 0,
+      "skill_sha256": "0bacdcec283bffb6d2a1c5fe31fd581a01f90773c75990b676f7830e327f908e"
+    },
+    {
+      "name": "bzd-problem-translator",
+      "path": ".agents/skills/bzd-problem-translator/SKILL.md",
+      "upstream_path": "skills/生成类/bzd-problem-translator",
+      "source_index": 0,
+      "skill_sha256": "35ad663b1d2feb610a36e9e01218abd38c84b4ef03126af3b4f91f86fd0892c3"
+    },
+    {
+      "name": "bzd-reference-appendix-checker",
+      "path": ".agents/skills/bzd-reference-appendix-checker/SKILL.md",
+      "upstream_path": "skills/论文自查类/bzd-reference-appendix-checker",
+      "source_index": 0,
+      "skill_sha256": "85d7fc3f3935b6aff9d7ea3ef9271c9390b502430df7c3940a7a345815f493cf"
+    },
+    {
+      "name": "bzd-symbol-notation-checker",
+      "path": ".agents/skills/bzd-symbol-notation-checker/SKILL.md",
+      "upstream_path": "skills/论文自查类/bzd-symbol-notation-checker",
+      "source_index": 0,
+      "skill_sha256": "2b660b3dbe159768dc7a684aba7d4037563f20bfca7f5752710d7325db2c8aec"
+    },
+    {
+      "name": "networkx",
+      "path": ".agents/skills/networkx/SKILL.md",
+      "upstream_path": "skills/networkx",
+      "source_index": 1,
+      "skill_sha256": "bbbceb66b81640b4d6440361b031107b688acb98a31ef1638b2254cb5f28ac99"
+    },
+    {
+      "name": "pymoo",
+      "path": ".agents/skills/pymoo/SKILL.md",
+      "upstream_path": "skills/pymoo",
+      "source_index": 1,
+      "skill_sha256": "dcdf2a25398e3759a55d7be1f402fc5ac8a3c278fc4d9f63466244d1e28cca4b"
+    },
+    {
+      "name": "scikit-learn",
+      "path": ".agents/skills/scikit-learn/SKILL.md",
+      "upstream_path": "skills/scikit-learn",
+      "source_index": 1,
+      "skill_sha256": "1dc452b7869eecc0241b02feea66c5e2e4639a981a0516152cc71e4ae161cbc6"
+    },
+    {
+      "name": "simpy",
+      "path": ".agents/skills/simpy/SKILL.md",
+      "upstream_path": "skills/simpy",
+      "source_index": 1,
+      "skill_sha256": "89660c094c6a929611afc1a2712bdbb3e709128ec8848855a0a922f2d244a2ad"
+    },
+    {
+      "name": "statsmodels",
+      "path": ".agents/skills/statsmodels/SKILL.md",
+      "upstream_path": "skills/statsmodels",
+      "source_index": 1,
+      "skill_sha256": "ea30c2c4e9ada999ff222d2ae41d99a7880a094113ad4e2093529b0bc4003487"
+    },
+    {
+      "name": "sympy",
+      "path": ".agents/skills/sympy/SKILL.md",
+      "upstream_path": "skills/sympy",
+      "source_index": 1,
+      "skill_sha256": "8a6f979326d74687f431d64a07acdcb9588c6204c6a4da91e7e45f361f767552"
+    }
+  ]
+}

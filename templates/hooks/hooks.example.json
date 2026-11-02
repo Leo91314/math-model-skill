@@ -1,0 +1,30 @@
+{
+  "description": "Optional modeling environment reminder and non-blocking Python syntax check.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 '__PROJECT_ROOT__/tools/workspace_hook.py'",
+            "timeout": 5,
+            "statusMessage": "Read modeling workspace entry points"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 '__PROJECT_ROOT__/tools/workspace_hook.py'",
+            "timeout": 10,
+            "statusMessage": "Check local Python syntax"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+% !TeX program = xelatex
+% Overleaf: Compiler = XeLaTeX; Main document = main.tex.
+\documentclass[UTF8,a4paper,zihao=-4,fontset=fandol]{ctexart}
+\usepackage{cumcm2026}
+\usepackage{subcaption}
+\captionsetup[subfigure]{font=small,justification=centering}
+\input{config}
+\begin{document}
+\pagenumbering{arabic}
+\MakeSummaryTitle
+\input{sections/00-abstract}
+\StartMainText
+\input{sections/01-problem}
+\input{sections/02-assumptions}
+\input{sections/03-notation}
+\input{sections/04-models}
+\input{sections/05-validation}
+\input{sections/06-conclusion}
+% 2026 AI rules: the declaration must precede the references.
+\input{sections/07-ai-declaration}
+\input{sections/08-references}
+\StartAppendices
+\input{sections/09-appendices}
+\end{document}

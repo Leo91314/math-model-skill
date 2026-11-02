@@ -1,0 +1,4 @@
+interface:
+  display_name: "Liminghao 00 · 总控"
+  short_description: "按已有成果和结构线索安排探索、计算与写作，支持必要的返回与并行推进。"
+  default_prompt: "使用 $liminghao-skill0-workflow，按当前材料选择最有价值的下一步，必要时先检验结构突破口。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Liminghao 04 · 定向调研"
+  short_description: "针对实际知识缺口查原始来源，核对公式参数与当前题目的适配性"
+  default_prompt: "使用 $liminghao-skill4-research，根据我已提供的材料完成定向调研，交付实际成果与必要的核查依据。"

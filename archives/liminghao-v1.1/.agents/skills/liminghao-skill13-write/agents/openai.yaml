@@ -1,0 +1,4 @@
+interface:
+  display_name: "Liminghao 13 · 正文写作"
+  short_description: "提炼问题特有的结构洞察与中心贡献，围绕证据重组正文，准确表达方法边界。"
+  default_prompt: "使用 $liminghao-skill13-write，依据已知结果提炼中心贡献，重组论文论证并突出关键结构。"

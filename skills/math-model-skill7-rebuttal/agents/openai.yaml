@@ -1,0 +1,4 @@
+interface:
+  display_name: "math model skill 7 · 模拟评阅与质询"
+  short_description: "按原题和证据模拟内部质询，给出试答与最小补证路线，核对实际提交障碍。"
+  default_prompt: "使用 $math-model-skill7-rebuttal，模拟内部评阅与答辩，找最影响可信度的质疑，给出有证据的回答与补救方案。"

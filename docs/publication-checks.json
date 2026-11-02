@@ -1,0 +1,34 @@
+{
+  "checked_on": "2026-11-02",
+  "scope": "Packaging and actual local installation only; no competition model was rerun",
+  "current_skills": 35,
+  "core_skills": 7,
+  "legacy_skills": 16,
+  "default_core_install": "passed: 7 installed",
+  "all_group_install": "passed: 28 added and existing 7 retained",
+  "repeat_install": "passed: 35 skipped, file bytes unchanged",
+  "renamed_core_frontmatter_and_references": "passed",
+  "hook_configuration": "passed in a Unicode path containing spaces; existing config preserved",
+  "hook_manual_execution": "SessionStart and Stop passed; trust state was not changed",
+  "python_files_parsed": 30,
+  "json_and_toml": "passed",
+  "main_navigation_links": "passed",
+  "private_source_paths": "not found",
+  "credential_pattern_scan": "no matches for the tested token patterns; not a claim of exhaustive secret detection",
+  "bzd_dictionary_bytes": "identical to source, all attribution retained",
+  "lock_registries": [
+    "https://pypi.org/simple"
+  ],
+  "not_executed": [
+    "skill behavior on new contest problems",
+    "scientific package installation on another machine",
+    "Word rendering with commercial plugin runtime"
+  ],
+  "latex_template_compile": "passed: latexmk with XeLaTeX, exit 0; build artifacts kept outside repository",
+  "staged_files": 329,
+  "staged_active_and_archived_skills": {
+    "active": 35,
+    "archived": 16
+  },
+  "copied_resources_present_in_git": 290
+}

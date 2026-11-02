@@ -1,0 +1,2036 @@
+{
+  "export_date": "2026-11-02",
+  "note": "Source and final packaged hashes; naming and portability edits are reflected in the final hashes.",
+  "files": [
+    {
+      "path": "skills/bzd-abstract-checker/SKILL.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "47bc8430ae54297fab3b1f78025ee8c0b702c0ae3c4365682235ea065aef9abe",
+      "packaged_sha256": "47bc8430ae54297fab3b1f78025ee8c0b702c0ae3c4365682235ea065aef9abe",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-abstract-checker/agents/openai.yaml",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "c58a030a5e703751eedcf4f9aec140537286cd1ba5dfb8ced486a7506646e09f",
+      "packaged_sha256": "c58a030a5e703751eedcf4f9aec140537286cd1ba5dfb8ced486a7506646e09f",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-abstract-checker/references/rubric.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "135b55754820c14b6e75fdeda62fcb5e4f8a8b39a3e7708d5e9cfb8d15e26006",
+      "packaged_sha256": "135b55754820c14b6e75fdeda62fcb5e4f8a8b39a3e7708d5e9cfb8d15e26006",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-ai-usage-disclosure/SKILL.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "6287b3186bc06baca4e046eb5ea247937e2706c225f3ce29706ec21185833765",
+      "packaged_sha256": "6287b3186bc06baca4e046eb5ea247937e2706c225f3ce29706ec21185833765",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-ai-usage-disclosure/agents/openai.yaml",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "95e3424baaab23bfdba957885f36c4122c24147dc38866c8f0e66cf6a05b9c1c",
+      "packaged_sha256": "95e3424baaab23bfdba957885f36c4122c24147dc38866c8f0e66cf6a05b9c1c",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-ai-usage-disclosure/references/compliance-checklist.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "81ff94fa0057d2667de46650c41ca4c95c18c75552412e95744cce15863b0059",
+      "packaged_sha256": "81ff94fa0057d2667de46650c41ca4c95c18c75552412e95744cce15863b0059",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-ai-usage-disclosure/references/details-template.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "06f10956b62d8f3763e07698c4cb78254de05fec7aeb1636237b1a319b6bf124",
+      "packaged_sha256": "06f10956b62d8f3763e07698c4cb78254de05fec7aeb1636237b1a319b6bf124",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-ai-usage-disclosure/references/statement-rules.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "29b170625cad573b53423450a589a72b4f9c87fed4d6a58e92be3cec3cd9f56d",
+      "packaged_sha256": "29b170625cad573b53423450a589a72b4f9c87fed4d6a58e92be3cec3cd9f56d",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-ai-usage-disclosure/references/usage-categories.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "0264c8894ea1f36123cfdf88c8ff2a57118678c86d05653487bcf3ce7556851e",
+      "packaged_sha256": "0264c8894ea1f36123cfdf88c8ff2a57118678c86d05653487bcf3ce7556851e",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-model-assumption-checker/SKILL.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "73151e927a4fc497445e6970925f06f4a7a71e62cdb4d2bcd1bc10b2c530c92a",
+      "packaged_sha256": "73151e927a4fc497445e6970925f06f4a7a71e62cdb4d2bcd1bc10b2c530c92a",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-model-assumption-checker/agents/openai.yaml",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "2e19c5b07989411d98d1b90fd8ce11acec2bfe12b743ffcf8903a53af777bee1",
+      "packaged_sha256": "2e19c5b07989411d98d1b90fd8ce11acec2bfe12b743ffcf8903a53af777bee1",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-model-assumption-checker/references/assumption-review-rules.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "e767ea64276058150e35070a893bdc63ea08b1c1e740bb9775a3357bc2681141",
+      "packaged_sha256": "e767ea64276058150e35070a893bdc63ea08b1c1e740bb9775a3357bc2681141",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-model-dictionary/SKILL.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "30d1f348ceccaaa61603ee0747ac0d038a6fa7e2a28215150c35dbb6ee4f4d17",
+      "packaged_sha256": "30d1f348ceccaaa61603ee0747ac0d038a6fa7e2a28215150c35dbb6ee4f4d17",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-model-dictionary/agents/openai.yaml",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "e3a50a049ffa0c32141b5f28d6f66993031d5963871779840ad8377963980ad4",
+      "packaged_sha256": "e3a50a049ffa0c32141b5f28d6f66993031d5963871779840ad8377963980ad4",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-model-dictionary/assets/model-dictionary.json",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "a49e0790318a81e0b36c29b8d7fd493cefc1017e17626950aaeff3892939ada9",
+      "packaged_sha256": "a49e0790318a81e0b36c29b8d7fd493cefc1017e17626950aaeff3892939ada9",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-model-dictionary/references/fit-assessment.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "5c39fe830e29680cfb04daf5167067f3ffdd9ea0684ba8f8270bf223a784b675",
+      "packaged_sha256": "5c39fe830e29680cfb04daf5167067f3ffdd9ea0684ba8f8270bf223a784b675",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-model-dictionary/scripts/query_dictionary.py",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "acc9d62dd4e568615e98d25d40ec2ab72528166b3567da979bda9911f1daef0e",
+      "packaged_sha256": "acc9d62dd4e568615e98d25d40ec2ab72528166b3567da979bda9911f1daef0e",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-model-dictionary/处理报告.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "ab875fabb50f338479fed629d5805d648cb04e6c4de40dd658b185b6515a6296",
+      "packaged_sha256": "ab875fabb50f338479fed629d5805d648cb04e6c4de40dd658b185b6515a6296",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-model-solution-checker/SKILL.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "87edafb91dca423c5d638e25b432629547be98c73d8cb4175be7d9a1706d6342",
+      "packaged_sha256": "87edafb91dca423c5d638e25b432629547be98c73d8cb4175be7d9a1706d6342",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-model-solution-checker/agents/openai.yaml",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "bcb5755107e8f958092ac467de7c016b865ddbc77517e7376c5c8db96b3e7709",
+      "packaged_sha256": "bcb5755107e8f958092ac467de7c016b865ddbc77517e7376c5c8db96b3e7709",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-model-solution-checker/references/cumcm-abcde-solution-redflags.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "6c96a0f55f2360cac64c00bf6fe6ef00a88e845b2a52b70e980d2cadd69c104e",
+      "packaged_sha256": "6c96a0f55f2360cac64c00bf6fe6ef00a88e845b2a52b70e980d2cadd69c104e",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-model-solution-checker/references/model-establishment-and-solution.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "0a1d4646d17aaecdc001999ad10b8e98acec87aed93641ec49aa0a1456d274d8",
+      "packaged_sha256": "0a1d4646d17aaecdc001999ad10b8e98acec87aed93641ec49aa0a1456d274d8",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-model-solution-checker/references/validation-and-sensitivity.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "dc596fe559d597df97c92820bbf38a74c9fe87d6697f12f29b3bc6176d8c1792",
+      "packaged_sha256": "dc596fe559d597df97c92820bbf38a74c9fe87d6697f12f29b3bc6176d8c1792",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-modeling-ideas/SKILL.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "fb09ff604a1cd71bde7b100c8d8013858a997a898678fd6b374df6ebc4082d21",
+      "packaged_sha256": "fb09ff604a1cd71bde7b100c8d8013858a997a898678fd6b374df6ebc4082d21",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-modeling-ideas/agents/openai.yaml",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "b08d60320e1dad7acc34176f4c11a9c01666ba948f2e25b18b9768527acbbcd9",
+      "packaged_sha256": "b08d60320e1dad7acc34176f4c11a9c01666ba948f2e25b18b9768527acbbcd9",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-modeling-ideas/references/cumcm-abcde-modeling-patterns.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "9a4be20ae59fd8a0e0e6e44f21c0ea810345a2f993db41150b55d82e7eb3e034",
+      "packaged_sha256": "9a4be20ae59fd8a0e0e6e44f21c0ea810345a2f993db41150b55d82e7eb3e034",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-modeling-ideas/references/integrated-modeling-patterns.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "0b3026cd43bb09a057f2d10c389e00496f6b5231d69197b750f18890642fb013",
+      "packaged_sha256": "0b3026cd43bb09a057f2d10c389e00496f6b5231d69197b750f18890642fb013",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-modeling-ideas/references/strategy-output-standard.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "578c022f16920d9b7e787f87758f20ad11ca24f550e49728997209bec72f0f3b",
+      "packaged_sha256": "578c022f16920d9b7e787f87758f20ad11ca24f550e49728997209bec72f0f3b",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-modeling-workflow/SKILL.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "e77809f7534590240656f6c9077f56c2b1d237eea7bb9da2c238d4eb7aa9cf9c",
+      "packaged_sha256": "e77809f7534590240656f6c9077f56c2b1d237eea7bb9da2c238d4eb7aa9cf9c",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-modeling-workflow/references/end-to-end-workflow.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "2c00a8b7fc56359f187824f575e94e9fd84ae1e854a4dad912186ad273e62118",
+      "packaged_sha256": "2c00a8b7fc56359f187824f575e94e9fd84ae1e854a4dad912186ad273e62118",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-problem-analysis-checker/SKILL.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "5643f148ae24c221cbe107aeecef3768d278317a22c6d1b6ab2486316da963f8",
+      "packaged_sha256": "5643f148ae24c221cbe107aeecef3768d278317a22c6d1b6ab2486316da963f8",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-problem-analysis-checker/agents/openai.yaml",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "77bc6cbf27549c967af9f5ca7f222881a371c7256d372e91d124a4fe877d20d3",
+      "packaged_sha256": "77bc6cbf27549c967af9f5ca7f222881a371c7256d372e91d124a4fe877d20d3",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-problem-analysis-checker/references/analysis-checklist.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "dc83de3ee63605db5c0d7e9d3adc3642a91a029ef9c3b80a37b26a7ed7254d78",
+      "packaged_sha256": "dc83de3ee63605db5c0d7e9d3adc3642a91a029ef9c3b80a37b26a7ed7254d78",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-problem-analysis-checker/references/cumcm-abcde-analysis-checks.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "6c30fb99174b67b34a763311fbbedb0f995f4f04f3a55620eec762720b239ace",
+      "packaged_sha256": "6c30fb99174b67b34a763311fbbedb0f995f4f04f3a55620eec762720b239ace",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-problem-restatement/SKILL.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "0bacdcec283bffb6d2a1c5fe31fd581a01f90773c75990b676f7830e327f908e",
+      "packaged_sha256": "0bacdcec283bffb6d2a1c5fe31fd581a01f90773c75990b676f7830e327f908e",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-problem-restatement/agents/openai.yaml",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "06beee88347b14d50b2aa80c4a10d9331422fbb81b4dde565f333f6948da4784",
+      "packaged_sha256": "06beee88347b14d50b2aa80c4a10d9331422fbb81b4dde565f333f6948da4784",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-problem-restatement/references/restatement-rules.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "3ed66afb25bf6d3079836f42e8a958a3ab1e345907998d6d62b408982c1c2eb4",
+      "packaged_sha256": "3ed66afb25bf6d3079836f42e8a958a3ab1e345907998d6d62b408982c1c2eb4",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-problem-restatement/references/review-checklist.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "99e819111eae6962361f4747c10f29d6ac2e5fa6b8aed7692773f8b8eaa4fa04",
+      "packaged_sha256": "99e819111eae6962361f4747c10f29d6ac2e5fa6b8aed7692773f8b8eaa4fa04",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-problem-translator/SKILL.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "35ad663b1d2feb610a36e9e01218abd38c84b4ef03126af3b4f91f86fd0892c3",
+      "packaged_sha256": "35ad663b1d2feb610a36e9e01218abd38c84b4ef03126af3b4f91f86fd0892c3",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-problem-translator/agents/openai.yaml",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "9c1d9615145ad0ebdd02708082facc7bf0c8c49811476b38ab17d8ccc26a3e07",
+      "packaged_sha256": "9c1d9615145ad0ebdd02708082facc7bf0c8c49811476b38ab17d8ccc26a3e07",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-problem-translator/references/cumcm-abcde-translation-signals.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "fe3ef4e58bc4e6f9e552147fc1fb8a6138c5e4507725543fd80dd5a81bbd4048",
+      "packaged_sha256": "fe3ef4e58bc4e6f9e552147fc1fb8a6138c5e4507725543fd80dd5a81bbd4048",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-problem-translator/references/historical-review-signals.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "6ed56965d88f1456545ed8422f5e8a9ef010b64fa72647141f091f64f1b8725b",
+      "packaged_sha256": "6ed56965d88f1456545ed8422f5e8a9ef010b64fa72647141f091f64f1b8725b",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-problem-translator/references/md-output-standard.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "7a407313aabb92b0874a5febc03b06312f24408f688b00dcf6039efaf4d87ba0",
+      "packaged_sha256": "7a407313aabb92b0874a5febc03b06312f24408f688b00dcf6039efaf4d87ba0",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-problem-translator/references/sentence-interpretation-rules.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "0f40bb793cadaaac338e2296acde597236c21de927d73d2c437ecf625346ee6c",
+      "packaged_sha256": "0f40bb793cadaaac338e2296acde597236c21de927d73d2c437ecf625346ee6c",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-reference-appendix-checker/SKILL.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "85d7fc3f3935b6aff9d7ea3ef9271c9390b502430df7c3940a7a345815f493cf",
+      "packaged_sha256": "85d7fc3f3935b6aff9d7ea3ef9271c9390b502430df7c3940a7a345815f493cf",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-reference-appendix-checker/agents/openai.yaml",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "468a0a17debdb45768368c15ad6a897d26d117e482be34eb2f3614ea2cf7156b",
+      "packaged_sha256": "468a0a17debdb45768368c15ad6a897d26d117e482be34eb2f3614ea2cf7156b",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-reference-appendix-checker/references/appendix-rules.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "be89448998ccd799ccda5cbb182f1a6e3ebb814137bc15a5ebedb724ff87fd18",
+      "packaged_sha256": "be89448998ccd799ccda5cbb182f1a6e3ebb814137bc15a5ebedb724ff87fd18",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-reference-appendix-checker/references/checklist.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "a6e97d8a2c8f801435778d546106545d5cc64f34bd950191c6dbd584302ecdfb",
+      "packaged_sha256": "a6e97d8a2c8f801435778d546106545d5cc64f34bd950191c6dbd584302ecdfb",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-reference-appendix-checker/references/reference-rules.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "4753c2a8866bb6c61eed6547f909bf5b17906018f97e4606e10b3a3c0b34d65a",
+      "packaged_sha256": "4753c2a8866bb6c61eed6547f909bf5b17906018f97e4606e10b3a3c0b34d65a",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-symbol-notation-checker/SKILL.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "2b660b3dbe159768dc7a684aba7d4037563f20bfca7f5752710d7325db2c8aec",
+      "packaged_sha256": "2b660b3dbe159768dc7a684aba7d4037563f20bfca7f5752710d7325db2c8aec",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-symbol-notation-checker/agents/openai.yaml",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "6a8db2ed6836d72901a188304030729a6e14f59c4009bdbce18328af26c19181",
+      "packaged_sha256": "6a8db2ed6836d72901a188304030729a6e14f59c4009bdbce18328af26c19181",
+      "modified": false
+    },
+    {
+      "path": "skills/bzd-symbol-notation-checker/references/symbol-review-rules.md",
+      "origin": "BZDmathclub/bzd-math-modeling-skills@332d55c2f3244c9e193e90749f42bcc0d534ce53 (local snapshot)",
+      "source_sha256": "1e8a4131d38600c6fe80b4fdf55af435fdcdd0728f04992445b8f5979c8bac88",
+      "packaged_sha256": "1e8a4131d38600c6fe80b4fdf55af435fdcdd0728f04992445b8f5979c8bac88",
+      "modified": false
+    },
+    {
+      "path": "skills/math-model-skill1-read/SKILL.md",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "source_sha256": "8f5ba995158da6003185fa90d9f4d99360e3590690b1c8bb11a739d707669de9",
+      "packaged_sha256": "a4effa7c6fc920ca208c4bf688913759bcec1d8fd5530b2f1e3889ea955cd7da",
+      "modified": true
+    },
+    {
+      "path": "skills/math-model-skill1-read/agents/openai.yaml",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "source_sha256": "d03bd0bc70db561175d4b404b086560965a77710f83a256f6fdbd03fe4491baf",
+      "packaged_sha256": "64d244e8ec0e376c8247acfc5128d7c03a4b89f01e4dc954853022f8de8c3323",
+      "modified": true
+    },
+    {
+      "path": "skills/math-model-skill1-read/references/principles.md",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "source_sha256": "037f8c474432ba4a98f5e457de49b23b79e840975c0baca1fe4dcb570bd3af49",
+      "packaged_sha256": "b0adb3c3556f6b36d6577e134ce92a3b7003e110097743bc9c699db90fa1fb33",
+      "modified": true
+    },
+    {
+      "path": "skills/math-model-skill1-read/references/rules-and-review.md",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "source_sha256": "4786dc91045286c661c31f6fa5041adcc4c0463456e9310daa06ce6aa99b4ae0",
+      "packaged_sha256": "4786dc91045286c661c31f6fa5041adcc4c0463456e9310daa06ce6aa99b4ae0",
+      "modified": false
+    },
+    {
+      "path": "skills/math-model-skill2-research/SKILL.md",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "source_sha256": "4f38c86875f9dc1dce3dc4a240fd6ebfe44a0781fb0201d01141255bf73b7592",
+      "packaged_sha256": "315639dc6ff2c715b27684a0c8408486a726d8a4de3d5725d79ae8cf2be31595",
+      "modified": true
+    },
+    {
+      "path": "skills/math-model-skill2-research/agents/openai.yaml",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "source_sha256": "51d52fd225c14d42cd68998ea1eeeea422d0ee8c8448d98cf24d62fd8e171260",
+      "packaged_sha256": "461c6b7cfca3bef440e502b78dc922c6b015640c2f40328198ffbe63961f5ca3",
+      "modified": true
+    },
+    {
+      "path": "skills/math-model-skill3-debate/SKILL.md",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "source_sha256": "ad90f81a9cb7ccc0c0ffd42d74139ea25ab05f440b36426029616d12ed2269bd",
+      "packaged_sha256": "80e5b0d721d00b0d2893567494f9875d117253efab6940202bedba4a96790e58",
+      "modified": true
+    },
+    {
+      "path": "skills/math-model-skill3-debate/agents/openai.yaml",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "source_sha256": "80a47214f4d67f1f5d0c34d294ad21007553c278c4aa7c2f374eb7df059042cb",
+      "packaged_sha256": "3cc133536676da54dfb15783a6939db6f4a062bfaeeaee4a8aa64cb9d41b6688",
+      "modified": true
+    },
+    {
+      "path": "skills/math-model-skill4-design/SKILL.md",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "source_sha256": "2535b4bd94007bf912cf8a625d062722fc3201409f77d505fac03e3400b6d69f",
+      "packaged_sha256": "12c877f5a6e37444360c2c4b1957af2ec5c578471adf429b021e8ebe53b084a5",
+      "modified": true
+    },
+    {
+      "path": "skills/math-model-skill4-design/agents/openai.yaml",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "source_sha256": "d3b8fa27082b10b20e3264289dd7ac73229d1cd590e7a9cee69fb36768ed9c1c",
+      "packaged_sha256": "6276ce2fb23ada40ba07f3c5aa33ed0ee038ce7bdda8218cbeb64e402e32e7bc",
+      "modified": true
+    },
+    {
+      "path": "skills/math-model-skill5-execute/SKILL.md",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "source_sha256": "5c4dcf79e9a3573190b63272466a458ec2aa7bcd8028ee770bc8e0f641f85418",
+      "packaged_sha256": "49da92e6bc501207131df96adadf789176f479a273697daa8079230099477084",
+      "modified": true
+    },
+    {
+      "path": "skills/math-model-skill5-execute/agents/openai.yaml",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "source_sha256": "8fc8f9cc1b6fa0f2d36543a6959736b684e9e16e0582394e78e05be55f5504cd",
+      "packaged_sha256": "a70337dc720dd352abea440d51590c3160302a624ff53b2cc289b3ff7ff55175",
+      "modified": true
+    },
+    {
+      "path": "skills/math-model-skill6-refine/SKILL.md",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "source_sha256": "18af2a70eef290872fda3b211270fa23fa97b47d636a0fd5b8b50466148c2406",
+      "packaged_sha256": "14374a77b00c91114ce2166c56d9b902960a08b8927152e5a96d2f694ed2e682",
+      "modified": true
+    },
+    {
+      "path": "skills/math-model-skill6-refine/agents/openai.yaml",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "source_sha256": "f8175fb5e42b7faea9d2dc9b2ecdcce2018384e6dc52495b77edfa9742b25540",
+      "packaged_sha256": "10fdb97acc3b790c1d5d17d2d156065d5eb434f3b5ba69880cdbd37d95fe06dd",
+      "modified": true
+    },
+    {
+      "path": "skills/math-model-skill7-rebuttal/SKILL.md",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "source_sha256": "b8b5dd0767c05b52545d74a460c32d348c56edd3be3a0b0a4f689b832861f59a",
+      "packaged_sha256": "98971eb96bbd406798f10a7d1d791230a5786d277f71a20f5fa34fb720b66f91",
+      "modified": true
+    },
+    {
+      "path": "skills/math-model-skill7-rebuttal/agents/openai.yaml",
+      "origin": "Local original Liminghao workflow 2.0; renamed with owner authorization",
+      "source_sha256": "296207ab37eb60cc24b7911fee6f3a69ae7e2cc9bdbf7fbfec835b394c291f01",
+      "packaged_sha256": "0e3d8ec9d6528f28828e41edc1dd01ca9091e1d5bb860ee91be92755edecf89e",
+      "modified": true
+    },
+    {
+      "path": "skills/networkx/SKILL.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "bbbceb66b81640b4d6440361b031107b688acb98a31ef1638b2254cb5f28ac99",
+      "packaged_sha256": "bbbceb66b81640b4d6440361b031107b688acb98a31ef1638b2254cb5f28ac99",
+      "modified": false
+    },
+    {
+      "path": "skills/networkx/UPSTREAM-LICENSE.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "packaged_sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "modified": false
+    },
+    {
+      "path": "skills/networkx/references/algorithms.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "44cf621daafcf5dee12e6e71bdae19d3e3c99aff3f59013ba5e1db602557c7e3",
+      "packaged_sha256": "44cf621daafcf5dee12e6e71bdae19d3e3c99aff3f59013ba5e1db602557c7e3",
+      "modified": false
+    },
+    {
+      "path": "skills/networkx/references/generators.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "08daa0828e96ea7e6d456a920d65bdedce267bb93e2fb7ba0ee757b76821e9eb",
+      "packaged_sha256": "08daa0828e96ea7e6d456a920d65bdedce267bb93e2fb7ba0ee757b76821e9eb",
+      "modified": false
+    },
+    {
+      "path": "skills/networkx/references/graph-basics.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "96ddf0a935866125f9d846ab9e2a1b44f336ae4b95744c9473800ba8f9fc8fc5",
+      "packaged_sha256": "96ddf0a935866125f9d846ab9e2a1b44f336ae4b95744c9473800ba8f9fc8fc5",
+      "modified": false
+    },
+    {
+      "path": "skills/networkx/references/io.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "9a2ef4134cdffa27082a2fdf6642c3b804bab8a8c20ad78cd72fae97658eeb6d",
+      "packaged_sha256": "9a2ef4134cdffa27082a2fdf6642c3b804bab8a8c20ad78cd72fae97658eeb6d",
+      "modified": false
+    },
+    {
+      "path": "skills/networkx/references/visualization.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "75b2441897c56194c747972cce8ab26b37f2d64009661f90be0ac975ceb0ce6f",
+      "packaged_sha256": "75b2441897c56194c747972cce8ab26b37f2d64009661f90be0ac975ceb0ce6f",
+      "modified": false
+    },
+    {
+      "path": "skills/pymoo/SKILL.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "dcdf2a25398e3759a55d7be1f402fc5ac8a3c278fc4d9f63466244d1e28cca4b",
+      "packaged_sha256": "dcdf2a25398e3759a55d7be1f402fc5ac8a3c278fc4d9f63466244d1e28cca4b",
+      "modified": false
+    },
+    {
+      "path": "skills/pymoo/UPSTREAM-LICENSE.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "packaged_sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "modified": false
+    },
+    {
+      "path": "skills/pymoo/references/algorithms.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "f9336ee3dc969233eefef228cad9413a8f9e2c693d9071e570fd828eacee7bc9",
+      "packaged_sha256": "f9336ee3dc969233eefef228cad9413a8f9e2c693d9071e570fd828eacee7bc9",
+      "modified": false
+    },
+    {
+      "path": "skills/pymoo/references/constraints_mcdm.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "67d8d2538e331aa1344f4b94a2b8b600c630efbfc80171ae741bb7e117f175c2",
+      "packaged_sha256": "67d8d2538e331aa1344f4b94a2b8b600c630efbfc80171ae741bb7e117f175c2",
+      "modified": false
+    },
+    {
+      "path": "skills/pymoo/references/operators.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "aefd3a1906fcc81afea224cba9f0ea0a23b9a2f1b3604004a03edc082799b655",
+      "packaged_sha256": "aefd3a1906fcc81afea224cba9f0ea0a23b9a2f1b3604004a03edc082799b655",
+      "modified": false
+    },
+    {
+      "path": "skills/pymoo/references/parallelization.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "c6fd4a91a3da58577b9008bb7d399f8cfc2b887d94667fa3be00571d130848ae",
+      "packaged_sha256": "c6fd4a91a3da58577b9008bb7d399f8cfc2b887d94667fa3be00571d130848ae",
+      "modified": false
+    },
+    {
+      "path": "skills/pymoo/references/problems.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "9baf6ef8ee9c4c6d67b7de5a74662534020154054f1649a716e71a59826e7338",
+      "packaged_sha256": "9baf6ef8ee9c4c6d67b7de5a74662534020154054f1649a716e71a59826e7338",
+      "modified": false
+    },
+    {
+      "path": "skills/pymoo/references/quick_start_workflows.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "514fe6103176caeeaf956091b3836a81a25a32b8ef20efd2051aa859eaccedf4",
+      "packaged_sha256": "514fe6103176caeeaf956091b3836a81a25a32b8ef20efd2051aa859eaccedf4",
+      "modified": false
+    },
+    {
+      "path": "skills/pymoo/references/visualization.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "b21636950d2f69eb10d4150c0c2e47e9a70ff9da792a707293b6c176122835b0",
+      "packaged_sha256": "b21636950d2f69eb10d4150c0c2e47e9a70ff9da792a707293b6c176122835b0",
+      "modified": false
+    },
+    {
+      "path": "skills/pymoo/scripts/custom_problem_example.py",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "9b385850d6b05f28443a28cfb41d226cddc8296bad98436616ed62d7f5e935ac",
+      "packaged_sha256": "9b385850d6b05f28443a28cfb41d226cddc8296bad98436616ed62d7f5e935ac",
+      "modified": false
+    },
+    {
+      "path": "skills/pymoo/scripts/decision_making_example.py",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "7ff21a0661ca04e5668ccd76a7342231782b07e6f7e57b9258178bf57ce09506",
+      "packaged_sha256": "7ff21a0661ca04e5668ccd76a7342231782b07e6f7e57b9258178bf57ce09506",
+      "modified": false
+    },
+    {
+      "path": "skills/pymoo/scripts/many_objective_example.py",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "4356326fe8463c948b7f9af7999ee1cc276c99ef9de70b6547159d527502e936",
+      "packaged_sha256": "4356326fe8463c948b7f9af7999ee1cc276c99ef9de70b6547159d527502e936",
+      "modified": false
+    },
+    {
+      "path": "skills/pymoo/scripts/multi_objective_example.py",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "ba237064b8aac3aae49d8f40b8bd8ac78766ddcdd2d69c4e219b35837d186d92",
+      "packaged_sha256": "ba237064b8aac3aae49d8f40b8bd8ac78766ddcdd2d69c4e219b35837d186d92",
+      "modified": false
+    },
+    {
+      "path": "skills/pymoo/scripts/single_objective_example.py",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "a69cecea739093a152370ab53b9d2d7491a584c0ed5bfb5a236d729472b0732f",
+      "packaged_sha256": "a69cecea739093a152370ab53b9d2d7491a584c0ed5bfb5a236d729472b0732f",
+      "modified": false
+    },
+    {
+      "path": "skills/scikit-learn/SKILL.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "1dc452b7869eecc0241b02feea66c5e2e4639a981a0516152cc71e4ae161cbc6",
+      "packaged_sha256": "1dc452b7869eecc0241b02feea66c5e2e4639a981a0516152cc71e4ae161cbc6",
+      "modified": false
+    },
+    {
+      "path": "skills/scikit-learn/UPSTREAM-LICENSE.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "packaged_sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "modified": false
+    },
+    {
+      "path": "skills/scikit-learn/references/common_workflows.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "46622a76232e595eafa8b568c4f52ee11479e24482ff36a1b6a1590cc3d95931",
+      "packaged_sha256": "46622a76232e595eafa8b568c4f52ee11479e24482ff36a1b6a1590cc3d95931",
+      "modified": false
+    },
+    {
+      "path": "skills/scikit-learn/references/core_capabilities.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "071aa20353e1ab33c3d20a6e2f81c43ef5847142bdabd8fa3658fd424e098b13",
+      "packaged_sha256": "071aa20353e1ab33c3d20a6e2f81c43ef5847142bdabd8fa3658fd424e098b13",
+      "modified": false
+    },
+    {
+      "path": "skills/scikit-learn/references/model_evaluation.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "95825afc97206a6588c7fd1f9358e2b130bbbbe6ae5f1032923ee7dbaf6c11e5",
+      "packaged_sha256": "95825afc97206a6588c7fd1f9358e2b130bbbbe6ae5f1032923ee7dbaf6c11e5",
+      "modified": false
+    },
+    {
+      "path": "skills/scikit-learn/references/pipelines_and_composition.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "c856b5b21e03b1cf5e4094211a831b69f1ff1d8ecd7b0174ca3a28674aec0033",
+      "packaged_sha256": "c856b5b21e03b1cf5e4094211a831b69f1ff1d8ecd7b0174ca3a28674aec0033",
+      "modified": false
+    },
+    {
+      "path": "skills/scikit-learn/references/preprocessing.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "e510e9f984e29162f950500edca082fe8d647c7bdb4ac066c295eb5eead8a2e1",
+      "packaged_sha256": "e510e9f984e29162f950500edca082fe8d647c7bdb4ac066c295eb5eead8a2e1",
+      "modified": false
+    },
+    {
+      "path": "skills/scikit-learn/references/quick_reference.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "c34ef2f24089f22e80a1ca7794b2c089ce9fc07e6286206140c99f56fa30990e",
+      "packaged_sha256": "c34ef2f24089f22e80a1ca7794b2c089ce9fc07e6286206140c99f56fa30990e",
+      "modified": false
+    },
+    {
+      "path": "skills/scikit-learn/references/supervised_learning.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "f257bc6e165777baf81ffdc55c2f6e36bc770a94fb42d3b9b6ed844c3a7f8c83",
+      "packaged_sha256": "f257bc6e165777baf81ffdc55c2f6e36bc770a94fb42d3b9b6ed844c3a7f8c83",
+      "modified": false
+    },
+    {
+      "path": "skills/scikit-learn/references/unsupervised_learning.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "a1f2a140c20e20f20de9c24a3be2ccacece1f192a1745c5f70a0c5e3cb972850",
+      "packaged_sha256": "a1f2a140c20e20f20de9c24a3be2ccacece1f192a1745c5f70a0c5e3cb972850",
+      "modified": false
+    },
+    {
+      "path": "skills/scikit-learn/scripts/classification_pipeline.py",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "0879a3643690c4e8245a9e57ebac631751a1178d0b4c31b0bde87ce0c38992d0",
+      "packaged_sha256": "0879a3643690c4e8245a9e57ebac631751a1178d0b4c31b0bde87ce0c38992d0",
+      "modified": false
+    },
+    {
+      "path": "skills/scikit-learn/scripts/clustering_analysis.py",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "aec71c7f1abfbc218eaa7ce000a85a726bef4d7b777038179aa4b44e96ca4d78",
+      "packaged_sha256": "aec71c7f1abfbc218eaa7ce000a85a726bef4d7b777038179aa4b44e96ca4d78",
+      "modified": false
+    },
+    {
+      "path": "skills/simpy/SKILL.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "89660c094c6a929611afc1a2712bdbb3e709128ec8848855a0a922f2d244a2ad",
+      "packaged_sha256": "36ea7a6e6eae46f9913a8916f751d02e504fe33368a398d0d982b8c0c5450c79",
+      "modified": true
+    },
+    {
+      "path": "skills/simpy/UPSTREAM-LICENSE.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "packaged_sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "modified": false
+    },
+    {
+      "path": "skills/simpy/references/cli-guide.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "648c73619ad2e52b0edf4cc34c99d499acf739eea01ae516b79d537ae46368fb",
+      "packaged_sha256": "648c73619ad2e52b0edf4cc34c99d499acf739eea01ae516b79d537ae46368fb",
+      "modified": false
+    },
+    {
+      "path": "skills/simpy/references/events.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "f4c0ff9b027718dcc81dff9fc912f5dc90ef52c58fedfcac63238390c5b622fd",
+      "packaged_sha256": "f4c0ff9b027718dcc81dff9fc912f5dc90ef52c58fedfcac63238390c5b622fd",
+      "modified": false
+    },
+    {
+      "path": "skills/simpy/references/monitoring.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "8bb3ed670ce153fcc873b15e6f1bd15760babd0241a42929e64672b7fe7a0bf5",
+      "packaged_sha256": "8bb3ed670ce153fcc873b15e6f1bd15760babd0241a42929e64672b7fe7a0bf5",
+      "modified": false
+    },
+    {
+      "path": "skills/simpy/references/process-interaction.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "463911ab1a26e2a743a943b7db1262c4ddb1901cbc14c9ce1a9c410338012f79",
+      "packaged_sha256": "463911ab1a26e2a743a943b7db1262c4ddb1901cbc14c9ce1a9c410338012f79",
+      "modified": false
+    },
+    {
+      "path": "skills/simpy/references/real-time.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "0ffd48a9199297339d17f21ad668c839e4531cf8f678da234f98b42ca684f36c",
+      "packaged_sha256": "0ffd48a9199297339d17f21ad668c839e4531cf8f678da234f98b42ca684f36c",
+      "modified": false
+    },
+    {
+      "path": "skills/simpy/references/resources.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "a73f016673ae0afd9b8c7fd53cf70d5193d566d5c7372af95cfe61ab8e7d0bbf",
+      "packaged_sha256": "a73f016673ae0afd9b8c7fd53cf70d5193d566d5c7372af95cfe61ab8e7d0bbf",
+      "modified": false
+    },
+    {
+      "path": "skills/simpy/references/simulation-methodology.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "48149207316ed6f3f248169d207dbc1770393486d7cc57fe27daf953cf1f4656",
+      "packaged_sha256": "48149207316ed6f3f248169d207dbc1770393486d7cc57fe27daf953cf1f4656",
+      "modified": false
+    },
+    {
+      "path": "skills/simpy/references/sources.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "09c4f7545968e88a56a98060d44f441fb88e59b83e5d1fa25709612ddfd3c182",
+      "packaged_sha256": "09c4f7545968e88a56a98060d44f441fb88e59b83e5d1fa25709612ddfd3c182",
+      "modified": false
+    },
+    {
+      "path": "skills/simpy/scripts/_common.py",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "076d0d9a36f9bb58dd8b1e5058ef12008cb02fb281bffe1fa25c205cf1e6bf62",
+      "packaged_sha256": "076d0d9a36f9bb58dd8b1e5058ef12008cb02fb281bffe1fa25c205cf1e6bf62",
+      "modified": false
+    },
+    {
+      "path": "skills/simpy/scripts/basic_simulation_template.py",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "5cb1ffb974a74669e0596dbaa54e392483e2f74ea8cb757ab181ae0b64f19e66",
+      "packaged_sha256": "5cb1ffb974a74669e0596dbaa54e392483e2f74ea8cb757ab181ae0b64f19e66",
+      "modified": false
+    },
+    {
+      "path": "skills/simpy/scripts/bounded_queue_scenario.py",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "8d8de80d5c241c8c677754810ce293d667498e618493a75418b35247e5613f0f",
+      "packaged_sha256": "8d8de80d5c241c8c677754810ce293d667498e618493a75418b35247e5613f0f",
+      "modified": false
+    },
+    {
+      "path": "skills/simpy/scripts/event_trace_summary.py",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "dc783180bf4f7e817aa0ce1249ae1ebe31dd318126839b93c9fd8b765cc64998",
+      "packaged_sha256": "dc783180bf4f7e817aa0ce1249ae1ebe31dd318126839b93c9fd8b765cc64998",
+      "modified": false
+    },
+    {
+      "path": "skills/simpy/scripts/replication_runner.py",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "99f0d16710a0dd472e3bdbb903b2ed38578c5a1523a7a87781a1053c8a34c23e",
+      "packaged_sha256": "99f0d16710a0dd472e3bdbb903b2ed38578c5a1523a7a87781a1053c8a34c23e",
+      "modified": false
+    },
+    {
+      "path": "skills/simpy/scripts/resource_monitor.py",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "dc04b5b66c3734deb03b4408b8b241f7b483195a4704b1eae2e963b8df582db0",
+      "packaged_sha256": "dc04b5b66c3734deb03b4408b8b241f7b483195a4704b1eae2e963b8df582db0",
+      "modified": false
+    },
+    {
+      "path": "skills/simpy/scripts/validate_simulation_config.py",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "2482b5a7d8f389ed892d0e4edfcce13cbd4144e64490513194791f8d1f0e555e",
+      "packaged_sha256": "2482b5a7d8f389ed892d0e4edfcce13cbd4144e64490513194791f8d1f0e555e",
+      "modified": false
+    },
+    {
+      "path": "skills/statsmodels/SKILL.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "ea30c2c4e9ada999ff222d2ae41d99a7880a094113ad4e2093529b0bc4003487",
+      "packaged_sha256": "ea30c2c4e9ada999ff222d2ae41d99a7880a094113ad4e2093529b0bc4003487",
+      "modified": false
+    },
+    {
+      "path": "skills/statsmodels/UPSTREAM-LICENSE.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "packaged_sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "modified": false
+    },
+    {
+      "path": "skills/statsmodels/references/discrete_choice.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "4b98bdcb525daf2ea33dc9e7bc5cb952fbdb6ed7f256ee63e7f7a7ec645d22a8",
+      "packaged_sha256": "4b98bdcb525daf2ea33dc9e7bc5cb952fbdb6ed7f256ee63e7f7a7ec645d22a8",
+      "modified": false
+    },
+    {
+      "path": "skills/statsmodels/references/glm.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "5a86120443b90c3feac508070b1a46c4ee7af60a2bbb3548bd954d972517ce85",
+      "packaged_sha256": "5a86120443b90c3feac508070b1a46c4ee7af60a2bbb3548bd954d972517ce85",
+      "modified": false
+    },
+    {
+      "path": "skills/statsmodels/references/linear_models.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "b260fcc1d604592a1b960249cd835d1cb67f510f054e0270a5939dceb33aafaf",
+      "packaged_sha256": "b260fcc1d604592a1b960249cd835d1cb67f510f054e0270a5939dceb33aafaf",
+      "modified": false
+    },
+    {
+      "path": "skills/statsmodels/references/model_selection.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "0a49d88b034794a147c6b050f19d895133131534344fb8f0e3bb672d0279cf83",
+      "packaged_sha256": "0a49d88b034794a147c6b050f19d895133131534344fb8f0e3bb672d0279cf83",
+      "modified": false
+    },
+    {
+      "path": "skills/statsmodels/references/modeling_capabilities.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "ff1cd9ae7e0694ca2af2caacd0c962e3ecd8c24ef9b4ae079232f4ddfbefbf82",
+      "packaged_sha256": "ff1cd9ae7e0694ca2af2caacd0c962e3ecd8c24ef9b4ae079232f4ddfbefbf82",
+      "modified": false
+    },
+    {
+      "path": "skills/statsmodels/references/quick_start_guide.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "65eb44f1c349d41f89aa2d2a647fed319064905f7d30b1278f01e829a1313574",
+      "packaged_sha256": "65eb44f1c349d41f89aa2d2a647fed319064905f7d30b1278f01e829a1313574",
+      "modified": false
+    },
+    {
+      "path": "skills/statsmodels/references/stats_diagnostics.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "f4d8ec3c6b149af355ae3cb33f29bea1776b873867dcc035906753b2b47d5620",
+      "packaged_sha256": "f4d8ec3c6b149af355ae3cb33f29bea1776b873867dcc035906753b2b47d5620",
+      "modified": false
+    },
+    {
+      "path": "skills/statsmodels/references/time_series.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "f84020f9d70396c0af6e4eceb6fc001967d5631f230fa06b2ec987fa13b27415",
+      "packaged_sha256": "f84020f9d70396c0af6e4eceb6fc001967d5631f230fa06b2ec987fa13b27415",
+      "modified": false
+    },
+    {
+      "path": "skills/sympy/SKILL.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "8a6f979326d74687f431d64a07acdcb9588c6204c6a4da91e7e45f361f767552",
+      "packaged_sha256": "8a6f979326d74687f431d64a07acdcb9588c6204c6a4da91e7e45f361f767552",
+      "modified": false
+    },
+    {
+      "path": "skills/sympy/UPSTREAM-LICENSE.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "packaged_sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "modified": false
+    },
+    {
+      "path": "skills/sympy/references/advanced-topics.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "212b3d0c3b67a45160135a4ff8d9ae89e0064cf1c68adf408a6c2af5c0d82bb9",
+      "packaged_sha256": "212b3d0c3b67a45160135a4ff8d9ae89e0064cf1c68adf408a6c2af5c0d82bb9",
+      "modified": false
+    },
+    {
+      "path": "skills/sympy/references/code-generation-printing.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "046648801a3404b9e883110e24bd4d947381be930c2ef8589fd8ca3414ef81cb",
+      "packaged_sha256": "046648801a3404b9e883110e24bd4d947381be930c2ef8589fd8ca3414ef81cb",
+      "modified": false
+    },
+    {
+      "path": "skills/sympy/references/core-capabilities.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "9d7b7393e814ef833fdcbb6e63a8a6621f08c123afe39d43c2bd2e131c7782d9",
+      "packaged_sha256": "9d7b7393e814ef833fdcbb6e63a8a6621f08c123afe39d43c2bd2e131c7782d9",
+      "modified": false
+    },
+    {
+      "path": "skills/sympy/references/core_capabilities.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "0d342387502fe83f229564ee35c2e2e36d6f7107303b572766cd2587fab1e298",
+      "packaged_sha256": "0d342387502fe83f229564ee35c2e2e36d6f7107303b572766cd2587fab1e298",
+      "modified": false
+    },
+    {
+      "path": "skills/sympy/references/matrices-linear-algebra.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "f22d091d2a38957e0e820e859e172b2d535cc1eef4f98d32d4af02962bd9a73c",
+      "packaged_sha256": "f22d091d2a38957e0e820e859e172b2d535cc1eef4f98d32d4af02962bd9a73c",
+      "modified": false
+    },
+    {
+      "path": "skills/sympy/references/physics-mechanics.md",
+      "origin": "K-Dense-AI/scientific-agent-skills@9cf7d9aea7d84754db4c167ab04b299d33c444bc (locally adapted snapshot)",
+      "source_sha256": "e5853aa09e9bddc37134afd7469bc86b952edcbd9dd6d8a6ef9c2c24a2e0fbf3",
+      "packaged_sha256": "e5853aa09e9bddc37134afd7469bc86b952edcbd9dd6d8a6ef9c2c24a2e0fbf3",
+      "modified": false
+    },
+    {
+      "path": "skills/planning-with-files/SKILL.md",
+      "origin": "Local supporting skill; upstream identity/version not established by this export",
+      "source_sha256": "5680e95064bc6b5b64de24ffb183c94c95c7b20eb2539cac7f112dcaa6eb982a",
+      "packaged_sha256": "5680e95064bc6b5b64de24ffb183c94c95c7b20eb2539cac7f112dcaa6eb982a",
+      "modified": false
+    },
+    {
+      "path": "skills/planning-with-files/references/examples.md",
+      "origin": "Local supporting skill; upstream identity/version not established by this export",
+      "source_sha256": "450355fac69e0fac93453b6c7383c8fb9ba3470662f6c8291080028f73ce00dc",
+      "packaged_sha256": "450355fac69e0fac93453b6c7383c8fb9ba3470662f6c8291080028f73ce00dc",
+      "modified": false
+    },
+    {
+      "path": "skills/planning-with-files/references/reference.md",
+      "origin": "Local supporting skill; upstream identity/version not established by this export",
+      "source_sha256": "f8b4edf7037a19cc4119f8cdc11dcda511da2d949328786202e0434d6044b830",
+      "packaged_sha256": "f8b4edf7037a19cc4119f8cdc11dcda511da2d949328786202e0434d6044b830",
+      "modified": false
+    },
+    {
+      "path": "skills/planning-with-files/scripts/check-complete.ps1",
+      "origin": "Local supporting skill; upstream identity/version not established by this export",
+      "source_sha256": "f9e5d7bc1e92a466a44fcd7de1bfa3f69174a55396af0a54e739407f75911e13",
+      "packaged_sha256": "f9e5d7bc1e92a466a44fcd7de1bfa3f69174a55396af0a54e739407f75911e13",
+      "modified": false
+    },
+    {
+      "path": "skills/planning-with-files/scripts/check-complete.sh",
+      "origin": "Local supporting skill; upstream identity/version not established by this export",
+      "source_sha256": "06bad6ec6331e571efcab249072fac289ab6216defe167fbae994c2e0bd8951a",
+      "packaged_sha256": "06bad6ec6331e571efcab249072fac289ab6216defe167fbae994c2e0bd8951a",
+      "modified": false
+    },
+    {
+      "path": "skills/planning-with-files/scripts/init-session.ps1",
+      "origin": "Local supporting skill; upstream identity/version not established by this export",
+      "source_sha256": "474db481a8eb8e9f56779e54595f55051a904158feca88ca5702619b9ec5dbeb",
+      "packaged_sha256": "474db481a8eb8e9f56779e54595f55051a904158feca88ca5702619b9ec5dbeb",
+      "modified": false
+    },
+    {
+      "path": "skills/planning-with-files/scripts/init-session.sh",
+      "origin": "Local supporting skill; upstream identity/version not established by this export",
+      "source_sha256": "1be722d7471cc1dd58ffd136af2f2e91136559a5acd10929ec507c20a10fc895",
+      "packaged_sha256": "1be722d7471cc1dd58ffd136af2f2e91136559a5acd10929ec507c20a10fc895",
+      "modified": false
+    },
+    {
+      "path": "skills/planning-with-files/scripts/session-catchup.py",
+      "origin": "Local supporting skill; upstream identity/version not established by this export",
+      "source_sha256": "95046e4bfec66ddc3a44e85fd87b610557c166ffafb83e89d0d9b6aeab6d6274",
+      "packaged_sha256": "95046e4bfec66ddc3a44e85fd87b610557c166ffafb83e89d0d9b6aeab6d6274",
+      "modified": false
+    },
+    {
+      "path": "skills/planning-with-files/templates/findings.md",
+      "origin": "Local supporting skill; upstream identity/version not established by this export",
+      "source_sha256": "b5e64d73704daefa8492356d2c2c67ffeb78d79d448b316c0a0debc9226ad785",
+      "packaged_sha256": "b5e64d73704daefa8492356d2c2c67ffeb78d79d448b316c0a0debc9226ad785",
+      "modified": false
+    },
+    {
+      "path": "skills/planning-with-files/templates/progress.md",
+      "origin": "Local supporting skill; upstream identity/version not established by this export",
+      "source_sha256": "a2366167ed178bc4a3c1d72ec6c5f6ea9e38aed67c6f3dd2c1a8cbdb4cde76b6",
+      "packaged_sha256": "a2366167ed178bc4a3c1d72ec6c5f6ea9e38aed67c6f3dd2c1a8cbdb4cde76b6",
+      "modified": false
+    },
+    {
+      "path": "skills/planning-with-files/templates/task_plan.md",
+      "origin": "Local supporting skill; upstream identity/version not established by this export",
+      "source_sha256": "03ab63b35434c8cf2375000762bb1f360db2e9b3a825810d0aee311bad5f49aa",
+      "packaged_sha256": "03ab63b35434c8cf2375000762bb1f360db2e9b3a825810d0aee311bad5f49aa",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/.gitignore",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
+      "packaged_sha256": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/README.md",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "249bfd26f4669587dce429ffbe03f1bc000de6736fa39a8eb2fa1b8da0d1c241",
+      "packaged_sha256": "249bfd26f4669587dce429ffbe03f1bc000de6736fa39a8eb2fa1b8da0d1c241",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/SKILL.md",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "b4fd8daf9b5b4fa8b048e89234c9afadcca25aa2ee696521380671b286bd5f5f",
+      "packaged_sha256": "b4fd8daf9b5b4fa8b048e89234c9afadcca25aa2ee696521380671b286bd5f5f",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/assets/chart-atlas/atlas-01-bar-charts.png",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "4a0e3040bbdbfe5ec48b66515f719f83ad7304fadb2e56432cd3e8f7ccbabd65",
+      "packaged_sha256": "4a0e3040bbdbfe5ec48b66515f719f83ad7304fadb2e56432cd3e8f7ccbabd65",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/assets/chart-atlas/atlas-02-line-trends.png",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "9a8189149180a68679738bc4be152ee40b17d71261d71b3759d315a7169da0d9",
+      "packaged_sha256": "9a8189149180a68679738bc4be152ee40b17d71261d71b3759d315a7169da0d9",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/assets/chart-atlas/atlas-03-heatmaps.png",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "40dd7c7c14c45b45cc22ee23e19f2dc1901f38b26a1fb4b0f26a30dbd10c0423",
+      "packaged_sha256": "40dd7c7c14c45b45cc22ee23e19f2dc1901f38b26a1fb4b0f26a30dbd10c0423",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/assets/chart-atlas/atlas-04-scatter-bubble.png",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "1bbfbc38a3f246e4fd7c59b9ed1003ddbc7280ee160b7c38abf8d410b27fe6f8",
+      "packaged_sha256": "1bbfbc38a3f246e4fd7c59b9ed1003ddbc7280ee160b7c38abf8d410b27fe6f8",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/assets/chart-atlas/atlas-05-radar-polar.png",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "e7fa7d98cd4f5263f5550d7ac8824e60071c20b2927aef52ac6d18d62fd29ffa",
+      "packaged_sha256": "e7fa7d98cd4f5263f5550d7ac8824e60071c20b2927aef52ac6d18d62fd29ffa",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/assets/chart-atlas/atlas-06-distributions.png",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "a1fe533d07dae36d11c997577ded61adb16bf5d4dd5c0dee2ff92ae570f0f01e",
+      "packaged_sha256": "a1fe533d07dae36d11c997577ded61adb16bf5d4dd5c0dee2ff92ae570f0f01e",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/assets/chart-atlas/atlas-07-forest-interval.png",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "dc61a5257eae4748348c72c51f2e70e59979c6892f52dadf7bb4ba6f8b98b00b",
+      "packaged_sha256": "dc61a5257eae4748348c72c51f2e70e59979c6892f52dadf7bb4ba6f8b98b00b",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/assets/chart-atlas/atlas-08-area-stacked.png",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "350c25e427d945dee5fd98316eb6ebe307304b9d187d954a88c05852d664a60b",
+      "packaged_sha256": "350c25e427d945dee5fd98316eb6ebe307304b9d187d954a88c05852d664a60b",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/assets/chart-atlas/atlas-09-image-plates.png",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "bbc8c0b8708d42465e57cb7c56b4d2ecfbaa63340a5a6dfefbcb51189cd1a995",
+      "packaged_sha256": "bbc8c0b8708d42465e57cb7c56b4d2ecfbaa63340a5a6dfefbcb51189cd1a995",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/assets/chart-atlas/atlas-10-network-matrix.png",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "cd384abe10aa86bd310c1288a42f33735cb555c267bddae1ecd262905a7a1de5",
+      "packaged_sha256": "cd384abe10aa86bd310c1288a42f33735cb555c267bddae1ecd262905a7a1de5",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/assets/gallery/fig1-material-mechanism-rich.png",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "2e0706fae3256e1de2388f8605f35b9b6ac23cfc397161a952f34cc5fa2f2192",
+      "packaged_sha256": "2e0706fae3256e1de2388f8605f35b9b6ac23cfc397161a952f34cc5fa2f2192",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/assets/gallery/fig2-spatial-imaging-rich.png",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "90081b3f778b9ede2dba41c60b6abf0c28a239060c69428344539529cd7f3257",
+      "packaged_sha256": "90081b3f778b9ede2dba41c60b6abf0c28a239060c69428344539529cd7f3257",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/assets/gallery/fig3-in-vivo-efficacy-rich.png",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "25d6fc50f5808104a7cb19f4795cea4229fbc6159fa7509f716a94f7c160a033",
+      "packaged_sha256": "25d6fc50f5808104a7cb19f4795cea4229fbc6159fa7509f716a94f7c160a033",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/assets/gallery/fig4-single-cell-systems-rich.png",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "999edb06b942f988a51b11f947845e42e4c346b2f9e5d5a6425def9e43bb69d1",
+      "packaged_sha256": "999edb06b942f988a51b11f947845e42e4c346b2f9e5d5a6425def9e43bb69d1",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/assets/gallery/fig5-validation-perturbation-rich.png",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "245ad31f97b2054628987444e44d6a007f352f65ae6254189f5ed8ba9b0301c6",
+      "packaged_sha256": "245ad31f97b2054628987444e44d6a007f352f65ae6254189f5ed8ba9b0301c6",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/evals/evals.json",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "c5d4c7b8c64ee251771262dff2a50d346054b4f871116f4b119bcf9c707c697c",
+      "packaged_sha256": "c5d4c7b8c64ee251771262dff2a50d346054b4f871116f4b119bcf9c707c697c",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/references/api.md",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "4d4f47ab46d082c4d1f2065058dd4756302a7d0770929845a635fab1fdddb71d",
+      "packaged_sha256": "4d4f47ab46d082c4d1f2065058dd4756302a7d0770929845a635fab1fdddb71d",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/references/backend-selection.md",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "f30b3e5c9293e8732c6de27c2f695284d3267ac5f4ecf21d8d5209020eb2e052",
+      "packaged_sha256": "f30b3e5c9293e8732c6de27c2f695284d3267ac5f4ecf21d8d5209020eb2e052",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/references/chart-types.md",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "585b5e59c0a528e020750df6b77914759eaa285f8a2a025d3810e40a8637c2ab",
+      "packaged_sha256": "585b5e59c0a528e020750df6b77914759eaa285f8a2a025d3810e40a8637c2ab",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/references/common-patterns.md",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "a2f9d839d4284dc2a8dcac0e5682446db037ff197aa2b4b5e995128eeadf6a1e",
+      "packaged_sha256": "a2f9d839d4284dc2a8dcac0e5682446db037ff197aa2b4b5e995128eeadf6a1e",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/references/design-theory.md",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "0a7b3a8a964635fa1c7a59d82640e0adb31a6e9845beae77bc6e87503f8597c1",
+      "packaged_sha256": "0a7b3a8a964635fa1c7a59d82640e0adb31a6e9845beae77bc6e87503f8597c1",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/references/figure-contract.md",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "d989b4ebdb3aeab14c09e261980756abe72a67bc5eb866e1b91cdaac9c5d5201",
+      "packaged_sha256": "d989b4ebdb3aeab14c09e261980756abe72a67bc5eb866e1b91cdaac9c5d5201",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/references/nature-2026-observations.md",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "e4f7800316740297ae3573b2f1830a2d150e3e306546144f6c0547806431c307",
+      "packaged_sha256": "e4f7800316740297ae3573b2f1830a2d150e3e306546144f6c0547806431c307",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/references/qa-contract.md",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "5323f234fa5319784ce4b06e4eba1d242ba39a72ce83198f9e2ba126eb500339",
+      "packaged_sha256": "5323f234fa5319784ce4b06e4eba1d242ba39a72ce83198f9e2ba126eb500339",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/references/r-template-index.md",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "0ebbbd4171896b61639d7969a010401d0aa257bafb99783026a1ba32c91ce19e",
+      "packaged_sha256": "0ebbbd4171896b61639d7969a010401d0aa257bafb99783026a1ba32c91ce19e",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/references/r-workflow.md",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "67ca5126e54b22373a6646c7f7c23c892ef237174092a2b5c94edbd9b25ead5e",
+      "packaged_sha256": "67ca5126e54b22373a6646c7f7c23c892ef237174092a2b5c94edbd9b25ead5e",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-figure/references/tutorials.md",
+      "origin": "Local customized scientific plotting skill and its generated examples",
+      "source_sha256": "7f9232dab5f1b10dd5d5f93f4c9cde2fe70dd514a9c8cf490059366391b45670",
+      "packaged_sha256": "7f9232dab5f1b10dd5d5f93f4c9cde2fe70dd514a9c8cf490059366391b45670",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-polishing/README.md",
+      "origin": "Local customized academic writing skill",
+      "source_sha256": "b857bc095c44113fdfaa1cb2d91759554e88bb80b4349d630f6b63f690b600ef",
+      "packaged_sha256": "b857bc095c44113fdfaa1cb2d91759554e88bb80b4349d630f6b63f690b600ef",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-polishing/SKILL.md",
+      "origin": "Local customized academic writing skill",
+      "source_sha256": "3b75e090a87365c0fe6711a9fb668e983226e9c33eaa1428525ec45053b1719a",
+      "packaged_sha256": "3b75e090a87365c0fe6711a9fb668e983226e9c33eaa1428525ec45053b1719a",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-polishing/references/phrasebank-playbook.md",
+      "origin": "Local customized academic writing skill",
+      "source_sha256": "03b1640264ef18ac95e362d73f9ca9dd60042c85d2ef17a2660ace34ffc525f9",
+      "packaged_sha256": "03b1640264ef18ac95e362d73f9ca9dd60042c85d2ef17a2660ace34ffc525f9",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-polishing/references/section-moves.md",
+      "origin": "Local customized academic writing skill",
+      "source_sha256": "77c259d570ec130889a6ea03b84e454955bbf890db1a0cafec14c2962dd33365",
+      "packaged_sha256": "77c259d570ec130889a6ea03b84e454955bbf890db1a0cafec14c2962dd33365",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-polishing/references/style-guardrails.md",
+      "origin": "Local customized academic writing skill",
+      "source_sha256": "f909c7adfc46b96c1b8a80fb8da86bee5786d2eda13062ba4dc3dbeb38bbc509",
+      "packaged_sha256": "f909c7adfc46b96c1b8a80fb8da86bee5786d2eda13062ba4dc3dbeb38bbc509",
+      "modified": false
+    },
+    {
+      "path": "skills/nature-polishing/references/writing-strategy.md",
+      "origin": "Local customized academic writing skill",
+      "source_sha256": "03a5eee892df1083ad94b5b0aa9be6f96f43592c0e4dead3935318f06d379dd1",
+      "packaged_sha256": "03a5eee892df1083ad94b5b0aa9be6f96f43592c0e4dead3935318f06d379dd1",
+      "modified": false
+    },
+    {
+      "path": "skills/latex-writing/SKILL.md",
+      "origin": "Local LaTeX writing skill",
+      "source_sha256": "1933476a0efaad339f6b200b3d16f3406eb2ac215f7906a595328510090e0b9d",
+      "packaged_sha256": "1933476a0efaad339f6b200b3d16f3406eb2ac215f7906a595328510090e0b9d",
+      "modified": false
+    },
+    {
+      "path": "skills/karpathy-guidelines/SKILL.md",
+      "origin": "Local Karpathy Guidelines skill",
+      "source_sha256": "6e22cc54cb02a5e98ae42d06d9d7292db0c1b43894831b32879beb0166b2aea7",
+      "packaged_sha256": "6e22cc54cb02a5e98ae42d06d9d7292db0c1b43894831b32879beb0166b2aea7",
+      "modified": false
+    },
+    {
+      "path": "skills/pdf/LICENSE.txt",
+      "origin": "OpenAI local PDF skill",
+      "source_sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "packaged_sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "modified": false
+    },
+    {
+      "path": "skills/pdf/SKILL.md",
+      "origin": "OpenAI local PDF skill",
+      "source_sha256": "d108cf2b36355ab37eb5962933f4d09785ec002f3105c506129320209306b9d2",
+      "packaged_sha256": "d108cf2b36355ab37eb5962933f4d09785ec002f3105c506129320209306b9d2",
+      "modified": false
+    },
+    {
+      "path": "skills/pdf/agents/openai.yaml",
+      "origin": "OpenAI local PDF skill",
+      "source_sha256": "f8b223e25343559f57e1839ccd849fd1494a9729da33da04bb5074b7f80f4887",
+      "packaged_sha256": "f8b223e25343559f57e1839ccd849fd1494a9729da33da04bb5074b7f80f4887",
+      "modified": false
+    },
+    {
+      "path": "skills/pdf/assets/pdf.png",
+      "origin": "OpenAI local PDF skill",
+      "source_sha256": "17da356d195d4e3fa24f9becbee6b8d9e60e13005762b5ab0809c520c76da6ee",
+      "packaged_sha256": "17da356d195d4e3fa24f9becbee6b8d9e60e13005762b5ab0809c520c76da6ee",
+      "modified": false
+    },
+    {
+      "path": "skills/jupyter-notebook/LICENSE.txt",
+      "origin": "OpenAI local notebook skill",
+      "source_sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "packaged_sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "modified": false
+    },
+    {
+      "path": "skills/jupyter-notebook/SKILL.md",
+      "origin": "OpenAI local notebook skill",
+      "source_sha256": "62f102e8554b25716dccef0ffab4572d4e3eaf05ccc76562d33a065bc9c521fb",
+      "packaged_sha256": "62f102e8554b25716dccef0ffab4572d4e3eaf05ccc76562d33a065bc9c521fb",
+      "modified": false
+    },
+    {
+      "path": "skills/jupyter-notebook/agents/openai.yaml",
+      "origin": "OpenAI local notebook skill",
+      "source_sha256": "3a2d6a8f9ed10e18f6caa66aeb26a02305bc61f36fc4b333c904e02f9988fb9c",
+      "packaged_sha256": "3a2d6a8f9ed10e18f6caa66aeb26a02305bc61f36fc4b333c904e02f9988fb9c",
+      "modified": false
+    },
+    {
+      "path": "skills/jupyter-notebook/assets/experiment-template.ipynb",
+      "origin": "OpenAI local notebook skill",
+      "source_sha256": "25f85914103cd84244e20ef378f59097479c72481cd18d3a931354d107c3f300",
+      "packaged_sha256": "25f85914103cd84244e20ef378f59097479c72481cd18d3a931354d107c3f300",
+      "modified": false
+    },
+    {
+      "path": "skills/jupyter-notebook/assets/jupyter-small.svg",
+      "origin": "OpenAI local notebook skill",
+      "source_sha256": "a36bd27bef3775f111309241754b386db81e7d356f07672190e2fcb24478a250",
+      "packaged_sha256": "a36bd27bef3775f111309241754b386db81e7d356f07672190e2fcb24478a250",
+      "modified": false
+    },
+    {
+      "path": "skills/jupyter-notebook/assets/jupyter.png",
+      "origin": "OpenAI local notebook skill",
+      "source_sha256": "852fd5468885bb176d266d547e61684792332e44a88cfbc8cd07323937040ccb",
+      "packaged_sha256": "852fd5468885bb176d266d547e61684792332e44a88cfbc8cd07323937040ccb",
+      "modified": false
+    },
+    {
+      "path": "skills/jupyter-notebook/assets/tutorial-template.ipynb",
+      "origin": "OpenAI local notebook skill",
+      "source_sha256": "704a809c09c7c9e6e5c437860df95524412b50c58571a14204610d73e0744765",
+      "packaged_sha256": "704a809c09c7c9e6e5c437860df95524412b50c58571a14204610d73e0744765",
+      "modified": false
+    },
+    {
+      "path": "skills/jupyter-notebook/references/experiment-patterns.md",
+      "origin": "OpenAI local notebook skill",
+      "source_sha256": "1ff9c04281c01e8e2209bde9f1fd910b8e4b620dd1f1f040e2101f1d88513a91",
+      "packaged_sha256": "1ff9c04281c01e8e2209bde9f1fd910b8e4b620dd1f1f040e2101f1d88513a91",
+      "modified": false
+    },
+    {
+      "path": "skills/jupyter-notebook/references/notebook-structure.md",
+      "origin": "OpenAI local notebook skill",
+      "source_sha256": "a85051a2e88fd3424bbed2636e952ec5f858e7efa4e076c28d62a8cc2cc9dc06",
+      "packaged_sha256": "a85051a2e88fd3424bbed2636e952ec5f858e7efa4e076c28d62a8cc2cc9dc06",
+      "modified": false
+    },
+    {
+      "path": "skills/jupyter-notebook/references/quality-checklist.md",
+      "origin": "OpenAI local notebook skill",
+      "source_sha256": "ed01afe6ff47714d85935d11053b64c414772f02250fdc604e3fca65e5139136",
+      "packaged_sha256": "ed01afe6ff47714d85935d11053b64c414772f02250fdc604e3fca65e5139136",
+      "modified": false
+    },
+    {
+      "path": "skills/jupyter-notebook/references/tutorial-patterns.md",
+      "origin": "OpenAI local notebook skill",
+      "source_sha256": "8c194bb640de2fb7747e3db87006ecec5219252d301f53670975dbb5310ff659",
+      "packaged_sha256": "8c194bb640de2fb7747e3db87006ecec5219252d301f53670975dbb5310ff659",
+      "modified": false
+    },
+    {
+      "path": "skills/jupyter-notebook/scripts/new_notebook.py",
+      "origin": "OpenAI local notebook skill",
+      "source_sha256": "a004e2ea3115edb24313928be0be6d1dc07e571d7ca6c1b24375f0569c616d2f",
+      "packaged_sha256": "a004e2ea3115edb24313928be0be6d1dc07e571d7ca6c1b24375f0569c616d2f",
+      "modified": false
+    },
+    {
+      "path": "skills/skill-creator/SKILL.md",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "6656e54755638e8efcf275a472b9672eaa8a9a1b9e59dc210e275b03b59e1e66",
+      "packaged_sha256": "6656e54755638e8efcf275a472b9672eaa8a9a1b9e59dc210e275b03b59e1e66",
+      "modified": false
+    },
+    {
+      "path": "skills/skill-creator/agents/openai.yaml",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "d07d21b93fcf3d4dc8d9a3399c05fc226a49a333a96d3e1c68b451b8dd9eade6",
+      "packaged_sha256": "d07d21b93fcf3d4dc8d9a3399c05fc226a49a333a96d3e1c68b451b8dd9eade6",
+      "modified": false
+    },
+    {
+      "path": "skills/skill-creator/assets/skill-creator-small.svg",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "6591bf8ea9bb9435890dbdea299e0d2bd05f3aa893a335d26e4c535e93c8e7fb",
+      "packaged_sha256": "6591bf8ea9bb9435890dbdea299e0d2bd05f3aa893a335d26e4c535e93c8e7fb",
+      "modified": false
+    },
+    {
+      "path": "skills/skill-creator/assets/skill-creator.png",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "a4024b0306ddb05847e1012879d37aaf1e658205199da596f5145ed7a88d9162",
+      "packaged_sha256": "a4024b0306ddb05847e1012879d37aaf1e658205199da596f5145ed7a88d9162",
+      "modified": false
+    },
+    {
+      "path": "skills/skill-creator/license.txt",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "packaged_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "modified": false
+    },
+    {
+      "path": "skills/skill-creator/references/openai_yaml.md",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "ffac39318e408108141d40f820968e59f70434a891694f9bf1d25be8237b150c",
+      "packaged_sha256": "ffac39318e408108141d40f820968e59f70434a891694f9bf1d25be8237b150c",
+      "modified": false
+    },
+    {
+      "path": "skills/skill-creator/scripts/generate_openai_yaml.py",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "816df12072d74faf924d802a6599a139997e1441e90bfe4869ec304f2e5e2851",
+      "packaged_sha256": "816df12072d74faf924d802a6599a139997e1441e90bfe4869ec304f2e5e2851",
+      "modified": false
+    },
+    {
+      "path": "skills/skill-creator/scripts/init_skill.py",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "bf0656a5f9d8d8cdecf0245eaf27e1df8e0e9b6d40ccdda814eb8e3d5f6992c8",
+      "packaged_sha256": "bf0656a5f9d8d8cdecf0245eaf27e1df8e0e9b6d40ccdda814eb8e3d5f6992c8",
+      "modified": false
+    },
+    {
+      "path": "skills/skill-creator/scripts/quick_validate.py",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "ee6dba90f44d37171c5a6edb8095979c54919ff6822c1a907afca2e78c48738c",
+      "packaged_sha256": "ee6dba90f44d37171c5a6edb8095979c54919ff6822c1a907afca2e78c48738c",
+      "modified": false
+    },
+    {
+      "path": "skills/skill-installer/LICENSE.txt",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "packaged_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "modified": false
+    },
+    {
+      "path": "skills/skill-installer/SKILL.md",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "d68b77e5bbb34dedab89d134da52855f140fc4b4299b80104f534e3b9e98f8ee",
+      "packaged_sha256": "d68b77e5bbb34dedab89d134da52855f140fc4b4299b80104f534e3b9e98f8ee",
+      "modified": false
+    },
+    {
+      "path": "skills/skill-installer/agents/openai.yaml",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "5ce223d8b1070b82c42298538f1b8d376f788eb9e7a42a987e8c094070d73f0e",
+      "packaged_sha256": "5ce223d8b1070b82c42298538f1b8d376f788eb9e7a42a987e8c094070d73f0e",
+      "modified": false
+    },
+    {
+      "path": "skills/skill-installer/assets/skill-installer-small.svg",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "3928703ff00dc1a681e7a22401843b7edcbd4b2051651ce4c43b75f7e140504e",
+      "packaged_sha256": "3928703ff00dc1a681e7a22401843b7edcbd4b2051651ce4c43b75f7e140504e",
+      "modified": false
+    },
+    {
+      "path": "skills/skill-installer/assets/skill-installer.png",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "d0a230b1a79b71b858b7c215a0fbb0768d6459c14ea4ef80c61592629bf0e605",
+      "packaged_sha256": "d0a230b1a79b71b858b7c215a0fbb0768d6459c14ea4ef80c61592629bf0e605",
+      "modified": false
+    },
+    {
+      "path": "skills/skill-installer/scripts/github_utils.py",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "61c1bbe2ae217433b4b6f9f09f21aca4df52c12598068343ade719f706e4859b",
+      "packaged_sha256": "61c1bbe2ae217433b4b6f9f09f21aca4df52c12598068343ade719f706e4859b",
+      "modified": false
+    },
+    {
+      "path": "skills/skill-installer/scripts/install-skill-from-github.py",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "38f311b75664bb063808f982c600271ebc4b560830f491705190f88a94e3e781",
+      "packaged_sha256": "38f311b75664bb063808f982c600271ebc4b560830f491705190f88a94e3e781",
+      "modified": false
+    },
+    {
+      "path": "skills/skill-installer/scripts/list-skills.py",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "9d6dfb2abf3afeee7f027a89fb1626b918a973da18f4eb6c25681286301beb41",
+      "packaged_sha256": "9d6dfb2abf3afeee7f027a89fb1626b918a973da18f4eb6c25681286301beb41",
+      "modified": false
+    },
+    {
+      "path": "skills/openai-docs/LICENSE.txt",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "packaged_sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "modified": false
+    },
+    {
+      "path": "skills/openai-docs/SKILL.md",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "aa6829e21df2223167c85d2e49b6337a7345c84c1033f1ec10182c7882b36d45",
+      "packaged_sha256": "aa6829e21df2223167c85d2e49b6337a7345c84c1033f1ec10182c7882b36d45",
+      "modified": false
+    },
+    {
+      "path": "skills/openai-docs/agents/openai.yaml",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "44b9efac6be1bae32d869aa2942fecbe4dcae82682ee03e4120f2f9b7d4658ec",
+      "packaged_sha256": "44b9efac6be1bae32d869aa2942fecbe4dcae82682ee03e4120f2f9b7d4658ec",
+      "modified": false
+    },
+    {
+      "path": "skills/openai-docs/assets/openai-small.svg",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "45be1f0757eb18889eefb1e7db79668ef46a275dc4e0e78e8df5ebd7f6cdeadc",
+      "packaged_sha256": "45be1f0757eb18889eefb1e7db79668ef46a275dc4e0e78e8df5ebd7f6cdeadc",
+      "modified": false
+    },
+    {
+      "path": "skills/openai-docs/assets/openai.png",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "156cc84d7332bfe95b310350bd470b690d22aa33d65340cc6c2e06022946194c",
+      "packaged_sha256": "156cc84d7332bfe95b310350bd470b690d22aa33d65340cc6c2e06022946194c",
+      "modified": false
+    },
+    {
+      "path": "skills/openai-docs/references/codex-self-knowledge.md",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "8c8fb00e6e5cb1977924f5164684a6095427fa828bbc765225f17d9aeb79a912",
+      "packaged_sha256": "8c8fb00e6e5cb1977924f5164684a6095427fa828bbc765225f17d9aeb79a912",
+      "modified": false
+    },
+    {
+      "path": "skills/openai-docs/references/latest-model.md",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "7e5b9437c6ad98a73da46ba3f7f5c86f88aea2a15242318f32c487eb28a90852",
+      "packaged_sha256": "7e5b9437c6ad98a73da46ba3f7f5c86f88aea2a15242318f32c487eb28a90852",
+      "modified": false
+    },
+    {
+      "path": "skills/openai-docs/references/mcp-diagnostics.md",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "49bbd2f73df7bbd7f86c80425dea4da2d301c22046080399a36bfc0ca49509e9",
+      "packaged_sha256": "49bbd2f73df7bbd7f86c80425dea4da2d301c22046080399a36bfc0ca49509e9",
+      "modified": false
+    },
+    {
+      "path": "skills/openai-docs/references/model-migration.md",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "138c05dd06047b069a7aab09e657b6a6a0d25b6959cbe2473baae95f47e72883",
+      "packaged_sha256": "138c05dd06047b069a7aab09e657b6a6a0d25b6959cbe2473baae95f47e72883",
+      "modified": false
+    },
+    {
+      "path": "skills/openai-docs/references/model-selection.md",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "ba2d164abbca30435a460a0bc3a7d82398dce2bdf092705c98ba55b3f3af38a8",
+      "packaged_sha256": "ba2d164abbca30435a460a0bc3a7d82398dce2bdf092705c98ba55b3f3af38a8",
+      "modified": false
+    },
+    {
+      "path": "skills/openai-docs/references/official-docs.md",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "7962f2dce55089b93bde4115bb89fd42f20993c1597a2b13edd4956f463875b9",
+      "packaged_sha256": "7962f2dce55089b93bde4115bb89fd42f20993c1597a2b13edd4956f463875b9",
+      "modified": false
+    },
+    {
+      "path": "skills/openai-docs/references/prompting-guide.md",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "5c791edd5bfc9363cb4251ac3ccd3b1dbac3bb2a6654f78606a9d2357c97c172",
+      "packaged_sha256": "5c791edd5bfc9363cb4251ac3ccd3b1dbac3bb2a6654f78606a9d2357c97c172",
+      "modified": false
+    },
+    {
+      "path": "skills/openai-docs/references/upgrade-guide.md",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "63352ece4bd1ee82b225bb4cb4fa2ea4f0dbf57a308845fa30f2c8d7f1d291d1",
+      "packaged_sha256": "63352ece4bd1ee82b225bb4cb4fa2ea4f0dbf57a308845fa30f2c8d7f1d291d1",
+      "modified": false
+    },
+    {
+      "path": "skills/openai-docs/references/upgrading-to-gpt-6-astra.md",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "cacacdfe0b516f7420af51df10dfa0829bf67c4a670544d58992f6ce4ac22583",
+      "packaged_sha256": "cacacdfe0b516f7420af51df10dfa0829bf67c4a670544d58992f6ce4ac22583",
+      "modified": false
+    },
+    {
+      "path": "skills/openai-docs/scripts/fetch-codex-manual.mjs",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "1ea0ca869e3fdf06e83a9972fc4c602b0505a96b22e4b0d9629656f5b545e5ff",
+      "packaged_sha256": "1ea0ca869e3fdf06e83a9972fc4c602b0505a96b22e4b0d9629656f5b545e5ff",
+      "modified": false
+    },
+    {
+      "path": "skills/openai-docs/scripts/resolve-latest-model-info",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "7354dbb030ca0736dd633a7ca1b930cf640abd40370725dea3a458cb51d49523",
+      "packaged_sha256": "7354dbb030ca0736dd633a7ca1b930cf640abd40370725dea3a458cb51d49523",
+      "modified": false
+    },
+    {
+      "path": "skills/openai-docs/scripts/resolve-latest-model-info.cjs",
+      "origin": "OpenAI system skill, export-date local snapshot",
+      "source_sha256": "589b89515ab63fff87efde0b9c76eb72e674582aebc3afbc29ceae09abddafe3",
+      "packaged_sha256": "589b89515ab63fff87efde0b9c76eb72e674582aebc3afbc29ceae09abddafe3",
+      "modified": false
+    },
+    {
+      "path": "archives/prompts-before-seven-stages.md",
+      "origin": "Original project prompt archive",
+      "source_sha256": "9cf14fb8481842df2331bc03ec59ade286d0fa8b724fb37bc39476d8e7ff7d1e",
+      "packaged_sha256": "9cf14fb8481842df2331bc03ec59ade286d0fa8b724fb37bc39476d8e7ff7d1e",
+      "modified": false
+    },
+    {
+      "path": "provenance/original-project-manifest.json",
+      "origin": "Original project historical metadata",
+      "source_sha256": "134928b7f5aada00e48f82463bd5b2bdd431c5363feab76815eb662048b122fb",
+      "packaged_sha256": "134928b7f5aada00e48f82463bd5b2bdd431c5363feab76815eb662048b122fb",
+      "modified": false
+    },
+    {
+      "path": "provenance/original-seven-stage-manifest.json",
+      "origin": "Original project historical metadata",
+      "source_sha256": "1f6e2c6a04e937efee962d15ee503405e9890d0ca1dfb7b5503161a4cc3beab9",
+      "packaged_sha256": "1f6e2c6a04e937efee962d15ee503405e9890d0ca1dfb7b5503161a4cc3beab9",
+      "modified": false
+    },
+    {
+      "path": "provenance/historical-validation.json",
+      "origin": "Original project historical metadata",
+      "source_sha256": "3ac99f06bc2bab2374f7ee8826dcb6ddcdcbea9544b75b351a0aa7fb91d5f110",
+      "packaged_sha256": "3ac99f06bc2bab2374f7ee8826dcb6ddcdcbea9544b75b351a0aa7fb91d5f110",
+      "modified": false
+    },
+    {
+      "path": "docs/historical-validation.md",
+      "origin": "Historical skill validation report; no contest results",
+      "source_sha256": "d7bae4247e5dcbe255f30b669a77a95953bd44857746ca06a6f1c809fe67eb42",
+      "packaged_sha256": "d7bae4247e5dcbe255f30b669a77a95953bd44857746ca06a6f1c809fe67eb42",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill10-improve/SKILL.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "970c45b46fb6fab075217d0f8b06379dcbbc35acd21497e0bdf0999338da38a7",
+      "packaged_sha256": "970c45b46fb6fab075217d0f8b06379dcbbc35acd21497e0bdf0999338da38a7",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill10-improve/agents/openai.yaml",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "cfdb38a032857abc3e4a0f1d6e481678c30f6ea525bff109b6ef7c2c4c1f9ca5",
+      "packaged_sha256": "cfdb38a032857abc3e4a0f1d6e481678c30f6ea525bff109b6ef7c2c4c1f9ca5",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill1-read/SKILL.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "01acf6469960b49ee8410561a52a40868a14abc79a353d564e66ad967c4fbc92",
+      "packaged_sha256": "01acf6469960b49ee8410561a52a40868a14abc79a353d564e66ad967c4fbc92",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill1-read/agents/openai.yaml",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "96967f828eacd2653e48510ad5402abfb63268f692b217f60b92b7900df5f94a",
+      "packaged_sha256": "96967f828eacd2653e48510ad5402abfb63268f692b217f60b92b7900df5f94a",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill6-model/SKILL.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "504ea7a198e579e5b642eeb657421f69099e30bcd55d989b3ac2a5a81e6e3455",
+      "packaged_sha256": "504ea7a198e579e5b642eeb657421f69099e30bcd55d989b3ac2a5a81e6e3455",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill6-model/agents/openai.yaml",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "d74bdfcead4f512c58fb7d4247236e5a5b8422e75412eda07a5716ceac920550",
+      "packaged_sha256": "d74bdfcead4f512c58fb7d4247236e5a5b8422e75412eda07a5716ceac920550",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill3-data/SKILL.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "61379d6486b8e9fe6858c4782726cbfc98cdeda7f70bf674fc34e2302532a309",
+      "packaged_sha256": "61379d6486b8e9fe6858c4782726cbfc98cdeda7f70bf674fc34e2302532a309",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill3-data/agents/openai.yaml",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "e55d4eb25a60d4489e6f0511ca61fef87ac8c44f0e5a4c59536a3c1ed2efcb52",
+      "packaged_sha256": "e55d4eb25a60d4489e6f0511ca61fef87ac8c44f0e5a4c59536a3c1ed2efcb52",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill15-submit/SKILL.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "5e21c27014d11adb502cac835e47c0c8598fa2dc7a9447e5139245bab1f88a1b",
+      "packaged_sha256": "5e21c27014d11adb502cac835e47c0c8598fa2dc7a9447e5139245bab1f88a1b",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill15-submit/agents/openai.yaml",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "d00861e97bfe9a6d0fdcc5d958c1ed6357002e41104219f4e2ee43aecd72a74b",
+      "packaged_sha256": "d00861e97bfe9a6d0fdcc5d958c1ed6357002e41104219f4e2ee43aecd72a74b",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill7-baseline/SKILL.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "11b818cfe643656afeb8d0bc8efdee5d22891898dab002c93855e51f934903a5",
+      "packaged_sha256": "11b818cfe643656afeb8d0bc8efdee5d22891898dab002c93855e51f934903a5",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill7-baseline/agents/openai.yaml",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "af9a7f73b841023434f90a49227a68be9137e8a837f28be195751d112add578d",
+      "packaged_sha256": "af9a7f73b841023434f90a49227a68be9137e8a837f28be195751d112add578d",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill9-solve/SKILL.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "2927cd40d9f66f63997c671928b0b633612424526fd35c5a24cc2f37a8324103",
+      "packaged_sha256": "2927cd40d9f66f63997c671928b0b633612424526fd35c5a24cc2f37a8324103",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill9-solve/agents/openai.yaml",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "db1232e8954bd3606ceb61023eb2721b11193bfa7c8d4056909337bed0275476",
+      "packaged_sha256": "db1232e8954bd3606ceb61023eb2721b11193bfa7c8d4056909337bed0275476",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill11-validate/SKILL.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "a6a98565c5d16b7e6e680051daf35e65f8cd650ede8374b96611e4c659807cc9",
+      "packaged_sha256": "a6a98565c5d16b7e6e680051daf35e65f8cd650ede8374b96611e4c659807cc9",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill11-validate/agents/openai.yaml",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "67908dbddcd0eb2e1be3972fbc71e2354d616c5c2cca20cc8c0bcd1a0aab84fc",
+      "packaged_sha256": "67908dbddcd0eb2e1be3972fbc71e2354d616c5c2cca20cc8c0bcd1a0aab84fc",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill5-plan/SKILL.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "b90ea24495e3411cdd8993e541e3ce8e264745118abaecfbdcd7b50a5bfba32e",
+      "packaged_sha256": "b90ea24495e3411cdd8993e541e3ce8e264745118abaecfbdcd7b50a5bfba32e",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill5-plan/agents/openai.yaml",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "35fa28a06a8cb409c1321cea547113f35812aa582ce4128e41171594cdfaf390",
+      "packaged_sha256": "35fa28a06a8cb409c1321cea547113f35812aa582ce4128e41171594cdfaf390",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill14-abstract/SKILL.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "5277295d1c2af78805ac6b2bae92e824b013b5616c336ef78593fd1eb7892141",
+      "packaged_sha256": "5277295d1c2af78805ac6b2bae92e824b013b5616c336ef78593fd1eb7892141",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill14-abstract/agents/openai.yaml",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "350120080b90c92c376ac7b59ca35f794863fb56f8db88bda63b01dbb8d5dfc7",
+      "packaged_sha256": "350120080b90c92c376ac7b59ca35f794863fb56f8db88bda63b01dbb8d5dfc7",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill4-research/SKILL.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "cfbfaea8210f6c1c880c4702da9b6726a31a15093ee8e40fc7c82230dfafa50a",
+      "packaged_sha256": "cfbfaea8210f6c1c880c4702da9b6726a31a15093ee8e40fc7c82230dfafa50a",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill4-research/agents/openai.yaml",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "b6cc6253bc8f0d145534fe995afa316ce5e2f0be91d1bb2a3e31ee0f4b9fa77d",
+      "packaged_sha256": "b6cc6253bc8f0d145534fe995afa316ce5e2f0be91d1bb2a3e31ee0f4b9fa77d",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill0-workflow/SKILL.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "1c4c57c98489228d6b12f53687e8e63987307c54581c3ae078926eb85233555d",
+      "packaged_sha256": "1c4c57c98489228d6b12f53687e8e63987307c54581c3ae078926eb85233555d",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill0-workflow/references/principles.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "d82b11bfc1c9656364f89083a5221cc8690346bf99392afc3f85777c10023335",
+      "packaged_sha256": "d82b11bfc1c9656364f89083a5221cc8690346bf99392afc3f85777c10023335",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill0-workflow/agents/openai.yaml",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "793353c6d89c7a51005b41eddb2c92c2270ad3339bddf7e78331cef0efc997aa",
+      "packaged_sha256": "793353c6d89c7a51005b41eddb2c92c2270ad3339bddf7e78331cef0efc997aa",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill13-write/SKILL.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "c01bb23b7a9dfd1b79872e478d1f1be75ffcc9900a7b22f0226a7bd3c769637b",
+      "packaged_sha256": "c01bb23b7a9dfd1b79872e478d1f1be75ffcc9900a7b22f0226a7bd3c769637b",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill13-write/agents/openai.yaml",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "002b811c711b52fcb5e955c1b5ee22712f6551e38df53198b901108848ae479f",
+      "packaged_sha256": "002b811c711b52fcb5e955c1b5ee22712f6551e38df53198b901108848ae479f",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill12-interpret/SKILL.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "98c535e5e89af63d2ed5ec5058e59ef3e9ac43e3fe139f8f0e97c547cf003a65",
+      "packaged_sha256": "98c535e5e89af63d2ed5ec5058e59ef3e9ac43e3fe139f8f0e97c547cf003a65",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill12-interpret/agents/openai.yaml",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "d13acfd7c046ab1580edc38015a3cf199cd8e1d33b4975c953483430e81d327d",
+      "packaged_sha256": "d13acfd7c046ab1580edc38015a3cf199cd8e1d33b4975c953483430e81d327d",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill2-analyze/SKILL.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "ad13baceb8958b91d8effe290aa3c12ae5dca5f21e93bc80a4cde34252fc2d20",
+      "packaged_sha256": "ad13baceb8958b91d8effe290aa3c12ae5dca5f21e93bc80a4cde34252fc2d20",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill2-analyze/agents/openai.yaml",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "8fc50c2f6e149df05af7aa4e7776f0c39907c4cd28dc7c3515cb120b00940776",
+      "packaged_sha256": "8fc50c2f6e149df05af7aa4e7776f0c39907c4cd28dc7c3515cb120b00940776",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill8-check/SKILL.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "4cd24d45c6d75034d2c9c9cf44b5994efab825b95c55c407f169e22524500233",
+      "packaged_sha256": "4cd24d45c6d75034d2c9c9cf44b5994efab825b95c55c407f169e22524500233",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/.agents/skills/liminghao-skill8-check/agents/openai.yaml",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "ba60f6c0e069e7b159a6de976d5c8ce789dff9b00a5618e81b91e6c0987e1a25",
+      "packaged_sha256": "ba60f6c0e069e7b159a6de976d5c8ce789dff9b00a5618e81b91e6c0987e1a25",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/README.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "17085eaaa6df3ddeae965e93a1334258c1dc94d970e33906251d8528ec4184dc",
+      "packaged_sha256": "dc7ea6b41f43f1b33c5c31f8e5b64e48158cc779087545a02a19fe4ac72c65f8",
+      "modified": true
+    },
+    {
+      "path": "archives/liminghao-v1.1/AGENTS.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "caa9ea84c4169da1a48bb1bf8824289d492c6cf921fc4347606f492107a79da1",
+      "packaged_sha256": "caa9ea84c4169da1a48bb1bf8824289d492c6cf921fc4347606f492107a79da1",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/docs/usage-guide.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "be77758de58c6b0a054433cf1bc9a258ce0abac43e16653359c5470adc36d948",
+      "packaged_sha256": "ffdd06dc66fe6fb25f3c4612f3a3dee0c7d334be4451eb8f84ebf4666c677036",
+      "modified": true
+    },
+    {
+      "path": "archives/liminghao-v1.1/docs/liminghao-skills-manifest.json",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "2708e04a17fdc633c09fd6f20ff262e47722a283d01e622cf4bcf1557e6a4944",
+      "packaged_sha256": "2708e04a17fdc633c09fd6f20ff262e47722a283d01e622cf4bcf1557e6a4944",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/docs/liminghao-skills-validation.json",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "03ed50cc5b3136b718977667bd4b51d235e82a5f68ffe90d14a71f1e969ee1c9",
+      "packaged_sha256": "03ed50cc5b3136b718977667bd4b51d235e82a5f68ffe90d14a71f1e969ee1c9",
+      "modified": false
+    },
+    {
+      "path": "archives/liminghao-v1.1/validation-report.md",
+      "origin": "Retired Liminghao v1.1 archive; original calling names preserved",
+      "source_sha256": "8d125b0bebb74255401ed81b796e4f5ab882ed644958cd4fabf35a118a8b0815",
+      "packaged_sha256": "8d125b0bebb74255401ed81b796e4f5ab882ed644958cd4fabf35a118a8b0815",
+      "modified": false
+    },
+    {
+      "path": "templates/project/pyproject.toml",
+      "origin": "Original scientific Python environment snapshot",
+      "source_sha256": "6132d6b39ea916ee5b500352fcefab19379fbfe91f9878da20e00b1cd01b41e4",
+      "packaged_sha256": "6132d6b39ea916ee5b500352fcefab19379fbfe91f9878da20e00b1cd01b41e4",
+      "modified": false
+    },
+    {
+      "path": "templates/project/uv.lock",
+      "origin": "Original scientific Python environment snapshot",
+      "source_sha256": "e75b76017f634090be03c81d85cd63201a173bdef66662e8e434a7276ad80c4b",
+      "packaged_sha256": "e75b76017f634090be03c81d85cd63201a173bdef66662e8e434a7276ad80c4b",
+      "modified": false
+    },
+    {
+      "path": "templates/project/requirements.lock.txt",
+      "origin": "Original scientific Python environment snapshot",
+      "source_sha256": "f1545aa3b830da31275419af963913bf7dc50ff465ed5995e03c10e5f9f92af3",
+      "packaged_sha256": "f1545aa3b830da31275419af963913bf7dc50ff465ed5995e03c10e5f9f92af3",
+      "modified": false
+    },
+    {
+      "path": "templates/project/.python-version",
+      "origin": "Original scientific Python environment snapshot",
+      "source_sha256": "5327a40401de3c82bbc3c066c9f8272fd6ce56b99825b5e76fea5b7463729d55",
+      "packaged_sha256": "5327a40401de3c82bbc3c066c9f8272fd6ce56b99825b5e76fea5b7463729d55",
+      "modified": false
+    },
+    {
+      "path": "templates/project/scripts/smoke_test.py",
+      "origin": "Original synthetic environment demonstration",
+      "source_sha256": "a01c3de72415b1a54060041c959411fef8417549791e9e69b50e30c88dfd1abf",
+      "packaged_sha256": "afaecd53ec0d514fcb633c133a4684013d1be05e360e0278b9991a5c40ab4630",
+      "modified": true
+    },
+    {
+      "path": "templates/project/scripts/build_env_documents.py",
+      "origin": "Original synthetic environment demonstration",
+      "source_sha256": "29ee24cee543166a55ada2eb5d5caf648a870e3d8c54f03c5652fcb64dc258ad",
+      "packaged_sha256": "af538f002d0a75fd870fe49bbde0daf8e21f7867d5acae165ca664bee23d2ecf",
+      "modified": true
+    },
+    {
+      "path": "templates/project/scripts/check_kernel.py",
+      "origin": "Original synthetic environment demonstration",
+      "source_sha256": "f28a0f0f0b14d9d513a7821bbf7025915999752dc52127959e5607a2766dbc1d",
+      "packaged_sha256": "aaee466f8e99d393768518d799395a6822285587ef17c29ae7185519d68e53db",
+      "modified": true
+    },
+    {
+      "path": "templates/project/scripts/verify_env_artifacts.py",
+      "origin": "Original synthetic environment demonstration",
+      "source_sha256": "d62e8337e9a65b93c055bd903321bdc499dca79318012f1893dff6e6902cf4b3",
+      "packaged_sha256": "d62e8337e9a65b93c055bd903321bdc499dca79318012f1893dff6e6902cf4b3",
+      "modified": false
+    },
+    {
+      "path": "templates/project/tools/workspace_hook.py",
+      "origin": "Original non-blocking project hook",
+      "source_sha256": "dce22d94c573827be7272186f20a31c73cf5aa20d9f9ec9d7ebde5f00eec1853",
+      "packaged_sha256": "dce22d94c573827be7272186f20a31c73cf5aa20d9f9ec9d7ebde5f00eec1853",
+      "modified": false
+    },
+    {
+      "path": "templates/latex-cumcm-2026/cumcm2026.sty",
+      "origin": "Local 2026 Overleaf layout used in project; not claimed official",
+      "source_sha256": "f42104c3ef9a1ab06746ca29445cbd47fb96eee85bfad907d0b465edc9f39d15",
+      "packaged_sha256": "f42104c3ef9a1ab06746ca29445cbd47fb96eee85bfad907d0b465edc9f39d15",
+      "modified": false
+    },
+    {
+      "path": "templates/latex-cumcm-2026/main.tex",
+      "origin": "Local 2026 Overleaf document structure; empty sections rebuilt",
+      "source_sha256": "8019beff3a43ae1fadbcb67f688c4f0c93b85368d6022047025d19b78ff76a38",
+      "packaged_sha256": "8019beff3a43ae1fadbcb67f688c4f0c93b85368d6022047025d19b78ff76a38",
+      "modified": false
+    }
+  ]
+}

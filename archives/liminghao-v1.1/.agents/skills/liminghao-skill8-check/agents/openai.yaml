@@ -1,0 +1,4 @@
+interface:
+  display_name: "Liminghao 08 · 基础验证"
+  short_description: "快速核对基线的单位、边界、残差和特例，定位应修复的根本问题"
+  default_prompt: "使用 $liminghao-skill8-check，根据我已提供的材料完成基础验证，交付实际成果与必要的核查依据。"
