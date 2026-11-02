@@ -26,10 +26,10 @@
 
 ### 1. 安装七步核心
 
-需要 Python 3 和已登录的 GitHub CLI。将下面的项目路径替换为你的工作目录：
+需要 Python 3 和 Git。将下面的项目路径替换为你的工作目录：
 
 ```bash
-gh repo clone Leo91314/math-model-skill
+git clone https://github.com/Leo91314/math-model-skill.git
 cd math-model-skill
 python3 scripts/install_skills.py --project "/path/to/your-project"
 ```
@@ -172,4 +172,4 @@ uv sync --locked
 
 本次整理已实际检查技能安装、已有文件保留、名称与引用、语法及打包完整性，并编译了 LaTeX 空白模板，记录见 [发布检查](docs/publication-checks.json)。这些检查有明确范围；历史验证也按其原版本解读。
 
-当前仓库为**私有资料库**，尚未指定统一开源许可证。原创技能、BZD 内容与其他第三方资源分别保留归属及许可，详见 [来源与授权](NOTICE.md)。模板中的 2026 赛事设置需按实际比赛重新核对，合成环境演示不能作为赛题结果。
+当前仓库为**公开资料库**，尚未指定统一开源许可证。原创技能、BZD 内容与其他第三方资源分别保留归属及许可，详见 [来源与授权](NOTICE.md)。模板中的 2026 赛事设置需按实际比赛重新核对，合成环境演示不能作为赛题结果。

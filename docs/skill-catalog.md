@@ -8,13 +8,13 @@
 
 | 技能 | 用途 | 来源/许可 |
 |---|---|---|
-| [math-model-skill1-read](../skills/math-model-skill1-read/SKILL.md) | 完整阅读数模原题、图表和附件说明，区分事实、假设、歧义与交付物，生成逐问任务清单并识别值得查证的结构线索。用于读题理解，尚不求解。 | Owner-created; no public redistribution license assigned |
-| [math-model-skill2-research](../skills/math-model-skill2-research/SKILL.md) | 围绕数学建模题目检索历史文献、机理、可行模型和算法，核对原始来源及适用条件，形成供人机讨论的候选方案。用于方案调研，不替用户定案或直接运行完整实验。 | Owner-created; no public redistribution license assigned |
-| [math-model-skill3-debate](../skills/math-model-skill3-debate/SKILL.md) | 围绕用户对数学建模题目的理解开展有证据的人机讨论，修正假设和方案，明确模型、方法、论文主张与贡献所需证据。用于共同定方案，不虚构用户观点或把待讨论选择擅自定案。 | Owner-created; no public redistribution license assigned |
-| [math-model-skill4-design](../skills/math-model-skill4-design/SKILL.md) | 为已商定的数模模型与论文主张设计实验、评价指标、数值算法和比较方式，明确证据能支持什么。用于执行前设计或补证规划；实际代码、实验和图表交由第5步。 | Owner-created; no public redistribution license assigned |
-| [math-model-skill5-execute](../skills/math-model-skill5-execute/SKILL.md) | 按已定数模路线实际完成代码、求解、验证实验与图表，先跑通最小真实链路，再覆盖授权任务并保留复现入口。用于自主执行和补算；论文正文留到第6步。 | Owner-created; no public redistribution license assigned |
-| [math-model-skill6-refine](../skills/math-model-skill6-refine/SKILL.md) | 根据已验证的数学建模结果撰写和反复打磨论文，优化主线、摘要、图表与表达，并查找会改变结论的技术漏洞。用于成稿和修订，保持中心发现，不把正文写成逐项答辩。 | Owner-created; no public redistribution license assigned |
-| [math-model-skill7-rebuttal](../skills/math-model-skill7-rebuttal/SKILL.md) | 依据原题、论文和真实证据模拟数学建模评阅与答辩，提出关键质疑、试答和最小补证方案，并核查提交障碍。用于内部预审，不预测奖项或假定存在正式rebuttal环节。 | Owner-created; no public redistribution license assigned |
+| [math-model-skill1-read](../skills/math-model-skill1-read/SKILL.md) | 完整阅读数模原题、图表和附件说明，区分事实、假设、歧义与交付物，生成逐问任务清单并识别值得查证的结构线索。用于读题理解，尚不求解。 | Owner-created; publicly shared by owner; no standalone reuse license assigned |
+| [math-model-skill2-research](../skills/math-model-skill2-research/SKILL.md) | 围绕数学建模题目检索历史文献、机理、可行模型和算法，核对原始来源及适用条件，形成供人机讨论的候选方案。用于方案调研，不替用户定案或直接运行完整实验。 | Owner-created; publicly shared by owner; no standalone reuse license assigned |
+| [math-model-skill3-debate](../skills/math-model-skill3-debate/SKILL.md) | 围绕用户对数学建模题目的理解开展有证据的人机讨论，修正假设和方案，明确模型、方法、论文主张与贡献所需证据。用于共同定方案，不虚构用户观点或把待讨论选择擅自定案。 | Owner-created; publicly shared by owner; no standalone reuse license assigned |
+| [math-model-skill4-design](../skills/math-model-skill4-design/SKILL.md) | 为已商定的数模模型与论文主张设计实验、评价指标、数值算法和比较方式，明确证据能支持什么。用于执行前设计或补证规划；实际代码、实验和图表交由第5步。 | Owner-created; publicly shared by owner; no standalone reuse license assigned |
+| [math-model-skill5-execute](../skills/math-model-skill5-execute/SKILL.md) | 按已定数模路线实际完成代码、求解、验证实验与图表，先跑通最小真实链路，再覆盖授权任务并保留复现入口。用于自主执行和补算；论文正文留到第6步。 | Owner-created; publicly shared by owner; no standalone reuse license assigned |
+| [math-model-skill6-refine](../skills/math-model-skill6-refine/SKILL.md) | 根据已验证的数学建模结果撰写和反复打磨论文，优化主线、摘要、图表与表达，并查找会改变结论的技术漏洞。用于成稿和修订，保持中心发现，不把正文写成逐项答辩。 | Owner-created; publicly shared by owner; no standalone reuse license assigned |
+| [math-model-skill7-rebuttal](../skills/math-model-skill7-rebuttal/SKILL.md) | 依据原题、论文和真实证据模拟数学建模评阅与答辩，提出关键质疑、试答和最小补证方案，并核查提交障碍。用于内部预审，不预测奖项或假定存在正式rebuttal环节。 | Owner-created; publicly shared by owner; no standalone reuse license assigned |
 
 ## BZD数模社
 
@@ -48,10 +48,10 @@
 
 | 技能 | 用途 | 来源/许可 |
 |---|---|---|
-| [planning-with-files](../skills/planning-with-files/SKILL.md) | Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring >5 tool calls. Supports automatic session recovery after /clear. | No standalone license found; retained as a private local snapshot |
-| [nature-figure](../skills/nature-figure/SKILL.md) | >- | No standalone license found; private local snapshot, private external R collection not copied |
+| [planning-with-files](../skills/planning-with-files/SKILL.md) | Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring >5 tool calls. Supports automatic session recovery after /clear. | No standalone license found in local snapshot; original rights retained |
+| [nature-figure](../skills/nature-figure/SKILL.md) | >- | No standalone license found in local snapshot; private external R collection not copied |
 | [nature-polishing](../skills/nature-polishing/SKILL.md) | Polish, restructure, or translate academic prose into Nature-leaning English using the paper-architecture and writing-strategy principles from Scientific English Writing & Communication, with phrase-level support from Academic Phrasebank. Use whenever the user asks to polish a manuscript paragraph, abstract, introduction, results, discussion, conclusion, title, methods section, or Chinese academic draft for publication-quality English. | No standalone license found; no external books or papers copied |
-| [latex-writing](../skills/latex-writing/SKILL.md) | Write and format LaTeX documents for academic journals. Use when: user asks to write LaTeX code, format papers for specific journals (Nature/Science/IEEE/ACM), create equations, tables, or BibTeX entries. NOT for: non-LaTeX writing (use paper-writing), data analysis, or literature search. | No standalone license found; retained as a private local snapshot |
+| [latex-writing](../skills/latex-writing/SKILL.md) | Write and format LaTeX documents for academic journals. Use when: user asks to write LaTeX code, format papers for specific journals (Nature/Science/IEEE/ACM), create equations, tables, or BibTeX entries. NOT for: non-LaTeX writing (use paper-writing), data analysis, or literature search. | No standalone license found in local snapshot; original rights retained |
 | [karpathy-guidelines](../skills/karpathy-guidelines/SKILL.md) | Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria. | MIT frontmatter; upstream notice preserved |
 | [pdf](../skills/pdf/SKILL.md) | Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and extraction. | Apache-2.0; LICENSE.txt retained |
 | [jupyter-notebook](../skills/jupyter-notebook/SKILL.md) | Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook. | Apache-2.0; LICENSE.txt retained |
